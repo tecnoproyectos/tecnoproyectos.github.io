@@ -36,6 +36,7 @@
         <title>Página de test - Tecno Proyectos</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d111a655" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?v=7bdb33bb" />
+    <link rel="stylesheet" type="text/css" href="_static/custom.css?v=8da846b8" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?v=8dab3a3b" />
     
     
@@ -219,7 +220,12 @@
 <div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
   <p class="caption" role="heading"><span class="caption-text">Contenidos:</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="arduino-ft.html">Guía Arduino</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="arduino-ft.html">Guía Arduino</a><input aria-label="Toggle navigation of Guía Arduino" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="arduino-ft-primeros-pasos.html">1. Primeros pasos con Arduino</a></li>
+<li class="toctree-l2"><a class="reference internal" href="arduino-ft-protoboard.html">2. Protoboard y conexión de componentes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="arduino-ft-variables.html">3. Variables</a></li>
+</ul>
+</li>
 <li class="toctree-l1 current current-page"><a class="current reference internal" href="#">Página de test</a></li>
 </ul>
 
@@ -267,8 +273,20 @@ Con esta página se puede aprender a utilizar este lenguaje y se puede
 comprobar el funcionamiento de los estilos aplicados por el tema Furo de
 Sphinx.</p>
 <p><a class="reference external" href="https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html" rel="noopener noreferrer" target="_blank">Documentación de reStructuredText para Sphinx.</a></p>
+<nav class="contents this-will-duplicate-information-and-it-is-still-useful-here local" id="indice-de-contenidos">
+<p class="topic-title">Índice de contenidos:</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#parrafos" id="id2">Párrafos</a></p></li>
+<li><p><a class="reference internal" href="#listas" id="id3">Listas</a></p></li>
+<li><p><a class="reference internal" href="#tablas" id="id4">Tablas</a></p></li>
+<li><p><a class="reference internal" href="#hipervinculos" id="id5">Hipervínculos</a></p></li>
+<li><p><a class="reference internal" href="#imagenes" id="id6">Imágenes</a></p></li>
+<li><p><a class="reference internal" href="#advertencias" id="id7">Advertencias</a></p></li>
+<li><p><a class="reference internal" href="#formulas" id="id8">Fórmulas</a></p></li>
+</ul>
+</nav>
 <section id="parrafos">
-<h2>Párrafos<a class="headerlink" href="#parrafos" title="Link to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id2" role="doc-backlink">Párrafos</a><a class="headerlink" href="#parrafos" title="Link to this heading">¶</a></h2>
 <p>Párrafo con texto <em>resaltado</em>, texto <strong>resaltado fuerte</strong> y texto en
 <code class="docutils literal notranslate"><span class="pre">formato</span> <span class="pre">código</span></code>.</p>
 <p>Párrafo segundo: Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -281,7 +299,7 @@ cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
 est laborum.</p>
 </section>
 <section id="listas">
-<h2>Listas<a class="headerlink" href="#listas" title="Link to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id3" role="doc-backlink">Listas</a><a class="headerlink" href="#listas" title="Link to this heading">¶</a></h2>
 <p>Lista numerada:</p>
 <ol class="arabic simple">
 <li><p>Primero</p></li>
@@ -306,7 +324,7 @@ est laborum.</p>
 </dl>
 </section>
 <section id="tablas">
-<h2>Tablas<a class="headerlink" href="#tablas" title="Link to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id4" role="doc-backlink">Tablas</a><a class="headerlink" href="#tablas" title="Link to this heading">¶</a></h2>
 <p>Tabla en forma de cuadrícula:</p>
 <div class="table-wrapper docutils container">
 <table class="docutils align-default">
@@ -357,14 +375,14 @@ est laborum.</p>
 </div>
 </section>
 <section id="hipervinculos">
-<h2>Hipervínculos<a class="headerlink" href="#hipervinculos" title="Link to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id5" role="doc-backlink">Hipervínculos</a><a class="headerlink" href="#hipervinculos" title="Link to this heading">¶</a></h2>
 <p><a class="reference external" href="https://es.wikipedia.org/wiki/Python" rel="noopener noreferrer" target="_blank">Enlace a una página de Wikipedia sobre Python</a>.</p>
 <p>Enlace interno a la <a class="reference internal" href="content.html#content"><span class="std std-ref">página principal de contenidos</span></a>.</p>
 <p><a class="reference download internal" download="" href="_downloads/test.rst"><code class="xref download docutils literal notranslate"><span class="pre">Descarga</span> <span class="pre">de</span> <span class="pre">este</span> <span class="pre">texto</span> <span class="pre">fuente</span></code></a>.</p>
 <p>Enlace a la <a class="reference internal" href="#tabla-lista"><span class="std std-numref">Tabla 1</span></a>.</p>
 </section>
 <section id="imagenes">
-<h2>Imágenes<a class="headerlink" href="#imagenes" title="Link to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id6" role="doc-backlink">Imágenes</a><a class="headerlink" href="#imagenes" title="Link to this heading">¶</a></h2>
 <p>Ejemplo de imagen centrada en el medio de la página con título.
 Al clicar sobre la imagen, se muestra en su tamaño real más grande:</p>
 <figure class="align-center" id="figura-flower">
@@ -409,7 +427,7 @@ cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
 est laborum.</p>
 </section>
 <section id="advertencias">
-<h2>Advertencias<a class="headerlink" href="#advertencias" title="Link to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id7" role="doc-backlink">Advertencias</a><a class="headerlink" href="#advertencias" title="Link to this heading">¶</a></h2>
 <div class="admonition tip">
 <p class="admonition-title">Truco</p>
 <p>Esto es un consejo o truco que facilita el aprendizaje.
@@ -431,6 +449,19 @@ el estudiante asocie el color con el tipo de mensaje de forma
 automática.</p>
 </dd>
 </dl>
+</section>
+<section id="formulas">
+<h2><a class="toc-backref" href="#id8" role="doc-backlink">Fórmulas</a><a class="headerlink" href="#formulas" title="Link to this heading">¶</a></h2>
+<p>El generador de páginas estáticas Sphinx permite añadir fórmulas a la
+documentación gracias al lenguaje LaTeX:</p>
+<div class="math-wrapper docutils container">
+<div class="math">
+<p><img src="_images/math/fed2352713e24352cbfead1c3b495119c64fcd35.svg" alt="ax^2 + bx + c = 0"/></p>
+</div></div>
+<div class="math-wrapper docutils container">
+<div class="math">
+<p><img src="_images/math/b0d11ba473e22fc2c807eda0cbac49848dee1166.svg" alt="x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}"/></p>
+</div></div>
 </section>
 </section>
 
