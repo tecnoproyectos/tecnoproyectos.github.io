@@ -37,7 +37,7 @@
         <title>Página de test - Tecno Proyectos</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d111a655" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?v=7bdb33bb" />
-    <link rel="stylesheet" type="text/css" href="_static/custom.css?v=0fc51d99" />
+    <link rel="stylesheet" type="text/css" href="_static/custom.css?v=a0ad611c" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?v=8dab3a3b" />
     
     
@@ -393,11 +393,11 @@ Al clicar sobre la imagen, se muestra en su tamaño real más grande:</p>
 </figure>
 <p>Ejemplo de imagen a la derecha con texto alrededor.
 Al clicar sobre la imagen se abre un enlace a Wikipedia:</p>
-<figure class="align-right" id="id1">
+<figure class="align-right" id="id5">
 <a class="reference external image-reference" href="https://es.wikipedia.org/wiki/Flor" rel="noopener noreferrer" target="_blank"><img alt="_images/flower.jpg" src="_images/flower.jpg" style="width: 360px;" />
 </a>
 <figcaption>
-<p><span class="caption-number">Figura 2</span><span class="caption-text">Flor blanca.</span><a class="headerlink" href="#id1" title="Link to this image">¶</a></p>
+<p><span class="caption-number">Figura 2</span><span class="caption-text">Flor blanca.</span><a class="headerlink" href="#id5" title="Link to this image">¶</a></p>
 <div class="legend">
 <p>Imagen de <a class="reference external" href="https://www.pexels.com/&#64;sosassosay/" rel="noopener noreferrer" target="_blank">Siritas Keawnet</a> en
 <a class="reference external" href="https://www.pexels.com/photo/white-and-yellow-flower-in-tilt-shift-lens-3718388/" rel="noopener noreferrer" target="_blank">Pexels</a></p>
@@ -438,12 +438,29 @@ También se puede utilizar para conectar un tema con otro.</p>
 <p>Esta advertencia se usa para alertar sobre fallos típicos,
 malentendidos o acciones que pueden estropear algo.</p>
 </div>
+<details class="admonition hint">
+<summary class="admonition-title">Consejo</summary>
+<p>Esta sugerencia o pista sirve para guiar al estudiante hacia la
+solución. Estimula el pensamiento crítico sin dar la respuesta
+directamente.
+Además se muestra inicialmente cerrada para no dar pistas antes
+de que el estudiante lo pida expresamente.</p>
+</details>
 <dl class="simple">
 <dt>Consistencia</dt><dd><p>Asigna siempre el mismo tipo de contenido al mismo bloque para que
 el estudiante asocie el color con el tipo de mensaje de forma
 automática.</p>
 </dd>
 </dl>
+</section>
+<section id="notas-a-pie-de-pagina">
+<h2>Notas a pie de página<a class="headerlink" href="#notas-a-pie-de-pagina" title="Link to this heading">¶</a></h2>
+<p>Este texto necesita una aclaración mediante una nota al pie de página
+con numeración automática <a class="footnote-reference brackets" href="#f1" id="id1" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a>.</p>
+<p>También puedes enlazar a otra nota a pie de página usando un nombre
+identificativo o etiqueta <a class="footnote-reference brackets" href="#nota-nombre" id="id2" role="doc-noteref"><span class="fn-bracket">[</span>2<span class="fn-bracket">]</span></a>.</p>
+<p>Por otro lado, Sphinx es la herramienta estándar para generar
+documentación de proyectos asociados a Python <a class="footnote-reference brackets" href="#id4" id="id3" role="doc-noteref"><span class="fn-bracket">[</span>3<span class="fn-bracket">]</span></a>.</p>
 </section>
 <section id="formulas">
 <h2>Fórmulas<a class="headerlink" href="#formulas" title="Link to this heading">¶</a></h2>
@@ -489,6 +506,24 @@ específicamente para la comunidad de <strong>Python</strong>. Su objetivo princ
 es facilitar la creación de documentos técnicos legibles tanto en su
 formato de texto plano de origen como una vez procesados y compilados
 por herramientas como <strong>Sphinx</strong>.</p>
+<p class="rubric">Notas:</p>
+<aside class="footnote-list brackets">
+<aside class="footnote brackets" id="f1" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">1</a><span class="fn-bracket">]</span></span>
+<p>Esta es la explicación de la primera nota al pie, numerada
+automáticamente.</p>
+</aside>
+<aside class="footnote brackets" id="nota-nombre" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id2">2</a><span class="fn-bracket">]</span></span>
+<p>Esta nota se asocia mediante el texto de la etiqueta,
+pero Sphinx le asignará el número correlativo correcto.</p>
+</aside>
+<aside class="footnote brackets" id="id4" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id3">3</a><span class="fn-bracket">]</span></span>
+<p>Sphinx transforma archivos reStructuredText en HTML, PDF y otros
+formatos.</p>
+</aside>
+</aside>
 </section>
 </section>
 
@@ -560,6 +595,7 @@ por herramientas como <strong>Sphinx</strong>.</p>
 <li><a class="reference internal" href="#hipervinculos">Hipervínculos</a></li>
 <li><a class="reference internal" href="#imagenes">Imágenes</a></li>
 <li><a class="reference internal" href="#advertencias">Advertencias</a></li>
+<li><a class="reference internal" href="#notas-a-pie-de-pagina">Notas a pie de página</a></li>
 <li><a class="reference internal" href="#formulas">Fórmulas</a></li>
 <li><a class="reference internal" href="#glosario-de-terminos">Glosario de términos</a></li>
 <li><a class="reference internal" href="#el-lenguaje-restructuredtext">El lenguaje reStructuredText</a></li>
