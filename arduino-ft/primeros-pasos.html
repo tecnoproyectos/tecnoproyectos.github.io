@@ -1,16 +1,16 @@
 <!doctype html>
-<html class="no-js" lang="es-es" data-content_root="./">
+<html class="no-js" lang="es-es" data-content_root="../">
   <head><meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta property="article:published_time" content="2026-06-21T12:00:00+01:00" />
-<meta property="article:modified_time" content="2026-06-21T12:00:00+01:00" />
+<meta property="article:published_time" content="2026-06-20T12:00:00+01:00" />
+<meta property="article:modified_time" content="2026-06-20T12:00:00+01:00" />
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "4. Bucle for()",
+  "headline": "1. Primeros pasos con Arduino",
   "author": {
     "@type": "Person",
     "name": "Francisco Trigueros"
@@ -24,21 +24,21 @@
       "url": "https://tecnoproyectos.github.io/favicon-192.png"
     }
   },
-  "mainEntityOfPage": "https://tecnoproyectos.github.io/arduino-ft-bucle-for.html",
+  "mainEntityOfPage": "https://tecnoproyectos.github.io/arduino-ft/primeros-pasos.html",
   "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-  "datePublished": "2026-06-21T12:00:00+01:00",
-  "dateModified": "2026-06-21T12:00:00+01:00"
+  "datePublished": "2026-06-20T12:00:00+01:00",
+  "dateModified": "2026-06-20T12:00:00+01:00"
 }
 </script>
-<link rel="index" title="Índice" href="genindex.html"><link rel="search" title="Búsqueda" href="search.html"><link rel="next" title="5. Salidas PWM" href="arduino-ft-salidas-pwm.html"><link rel="prev" title="3. Variables" href="arduino-ft-variables.html">
-        <link rel="prefetch" href="_static/favicon.png" as="image">
+<link rel="index" title="Índice" href="../genindex.html"><link rel="search" title="Búsqueda" href="../search.html"><link rel="next" title="2. Protoboard y conexión de componentes" href="protoboard.html"><link rel="prev" title="Guía Arduino" href="index.html">
+        <link rel="prefetch" href="../_static/favicon.png" as="image">
 
-    <link rel="shortcut icon" href="_static/favicon.ico"><!-- Generated with Sphinx 9.1.0 and Furo 2025.12.19 -->
-        <title>4. Bucle for() - Tecno Proyectos</title>
-      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d111a655" />
-    <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?v=7bdb33bb" />
-    <link rel="stylesheet" type="text/css" href="_static/custom.css?v=ec32ab77" />
-    <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?v=8dab3a3b" />
+    <link rel="shortcut icon" href="../_static/favicon.ico"><!-- Generated with Sphinx 9.1.0 and Furo 2025.12.19 -->
+        <title>1. Primeros pasos con Arduino - Tecno Proyectos</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d111a655" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=7bdb33bb" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=ec32ab77" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css?v=8dab3a3b" />
     
     
 
@@ -193,7 +193,7 @@
       </label>
     </div>
     <div class="header-center">
-      <a href="content.html"><div class="brand">Tecno Proyectos</div></a>
+      <a href="../content.html"><div class="brand">Tecno Proyectos</div></a>
     </div>
     <div class="header-right">
       <div class="theme-toggle-container theme-toggle-header">
@@ -204,7 +204,7 @@
           <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
         </button>
       </div>
-      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
         <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
       </label>
     </div>
@@ -212,14 +212,14 @@
   <aside class="sidebar-drawer">
     <div class="sidebar-container">
       
-      <div class="sidebar-sticky"><a class="sidebar-brand" href="content.html">
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../content.html">
   <div class="sidebar-logo-container">
-    <img class="sidebar-logo" src="_static/favicon.png" alt="Logo"/>
+    <img class="sidebar-logo" src="../_static/favicon.png" alt="Logo"/>
   </div>
   
   <span class="sidebar-brand-text">Tecno Proyectos</span>
   
-</a><form class="sidebar-search-container" method="get" action="search.html" role="search">
+</a><form class="sidebar-search-container" method="get" action="../search.html" role="search">
   <input class="sidebar-search" placeholder="Búsqueda" name="q" aria-label="Búsqueda">
   <input type="hidden" name="check_keywords" value="yes">
   <input type="hidden" name="area" value="default">
@@ -227,21 +227,21 @@
 <div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
   <p class="caption" role="heading"><span class="caption-text">Contenidos:</span></p>
 <ul class="current">
-<li class="toctree-l1 current has-children"><a class="reference internal" href="arduino-ft.html">Guía Arduino</a><input aria-label="Toggle navigation of Guía Arduino" checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="arduino-ft-primeros-pasos.html">1. Primeros pasos con Arduino</a></li>
-<li class="toctree-l2"><a class="reference internal" href="arduino-ft-protoboard.html">2. Protoboard y conexión de componentes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="arduino-ft-variables.html">3. Variables</a></li>
-<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">4. Bucle for()</a></li>
-<li class="toctree-l2"><a class="reference internal" href="arduino-ft-salidas-pwm.html">5. Salidas PWM</a></li>
-<li class="toctree-l2"><a class="reference internal" href="arduino-ft-serial-recibir.html">6. Comunicación serie I</a></li>
-<li class="toctree-l2"><a class="reference internal" href="arduino-ft-serial-enviar.html">7. Comunicación serie II</a></li>
-<li class="toctree-l2"><a class="reference internal" href="arduino-ft-entradas-digitales.html">8. Entradas digitales</a></li>
-<li class="toctree-l2"><a class="reference internal" href="arduino-ft-entradas-analogicas.html">9. Entradas analógicas</a></li>
-<li class="toctree-l2"><a class="reference internal" href="arduino-ft-servomotores.html">10. Servomotores</a></li>
-<li class="toctree-l2"><a class="reference internal" href="arduino-ft-potenciometro.html">11. Potenciómetro</a></li>
+<li class="toctree-l1 current has-children"><a class="reference internal" href="index.html">Guía Arduino</a><input aria-label="Toggle navigation of Guía Arduino" checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul class="current">
+<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">1. Primeros pasos con Arduino</a></li>
+<li class="toctree-l2"><a class="reference internal" href="protoboard.html">2. Protoboard y conexión de componentes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="variables.html">3. Variables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bucle-for.html">4. Bucle for()</a></li>
+<li class="toctree-l2"><a class="reference internal" href="salidas-pwm.html">5. Salidas PWM</a></li>
+<li class="toctree-l2"><a class="reference internal" href="serial-recibir.html">6. Comunicación serie I</a></li>
+<li class="toctree-l2"><a class="reference internal" href="serial-enviar.html">7. Comunicación serie II</a></li>
+<li class="toctree-l2"><a class="reference internal" href="entradas-digitales.html">8. Entradas digitales</a></li>
+<li class="toctree-l2"><a class="reference internal" href="entradas-analogicas.html">9. Entradas analógicas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="servomotores.html">10. Servomotores</a></li>
+<li class="toctree-l2"><a class="reference internal" href="potenciometro.html">11. Potenciómetro</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="test.html">Página de test</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../test.html">Página de test</a></li>
 </ul>
 
 </div>
@@ -262,7 +262,7 @@
         </a>
         <div class="content-icon-container">
           <div class="view-this-page">
-  <a class="muted-link" href="_sources/arduino-ft-bucle-for.rst.txt" title="View this page">
+  <a class="muted-link" href="../_sources/arduino-ft/primeros-pasos.rst.txt" title="View this page">
     <svg><use href="#svg-eye"></use></svg>
     <span class="visually-hidden">View this page</span>
   </a>
@@ -275,50 +275,34 @@
               <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
             </button>
           </div>
-          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
             <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
           </label>
         </div>
         <article role="main" id="furo-main-content">
-          <section id="bucle-for">
-<h1><span class="section-number">4. </span>Bucle for()<a class="headerlink" href="#bucle-for" title="Link to this heading">¶</a></h1>
-<p>VÍDEO: <a class="reference external" href="https://www.youtube.com/watch?v=BBouhq2HR10" rel="noopener noreferrer" target="_blank">Bucles for() en Arduino</a></p>
-<p>Ejemplo de <strong>repetir 5 veces</strong> con el bucle <code class="docutils literal notranslate"><span class="pre">for()</span></code>,
-que podríamos interpretarlo como:</p>
-<ul class="simple">
-<li><p>Comenzando con i igual a 1</p></li>
-<li><p>Repetir mientras i sea menor o igual a 5</p></li>
-<li><p>Aumentando i de uno en uno (i++)</p></li>
-</ul>
-<div class="highlight-arduino notranslate"><div class="highlight"><pre><span></span><span class="linenos">1</span><span class="kr">int</span><span class="w"> </span><span class="n">i</span><span class="p">;</span>
-<span class="linenos">2</span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="mi">5</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-<span class="linenos">3</span><span class="w">  </span><span class="nf">digitalWrite</span><span class="p">(</span><span class="mi">13</span><span class="p">,</span><span class="w"> </span><span class="kr">HIGH</span><span class="p">);</span>
-<span class="linenos">4</span><span class="w">  </span><span class="nf">delay</span><span class="p">(</span><span class="mi">200</span><span class="p">);</span>
-<span class="linenos">5</span><span class="w">  </span><span class="nf">digitalWrite</span><span class="p">(</span><span class="mi">13</span><span class="p">,</span><span class="w"> </span><span class="kr">LOW</span><span class="p">);</span>
-<span class="linenos">6</span><span class="w">  </span><span class="nf">delay</span><span class="p">(</span><span class="mi">200</span><span class="p">);</span>
-<span class="linenos">7</span><span class="p">}</span>
-</pre></div>
-</div>
-<p>Si queremos que el contador disminuya de 1 en 1:</p>
-<div class="highlight-arduino notranslate"><div class="highlight"><pre><span></span><span class="linenos">1</span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">5</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="mi">5</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">--</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-</pre></div>
-</div>
-<p>Si queremos que el contador vaya aumentando de 5 en 5:</p>
-<div class="highlight-arduino notranslate"><div class="highlight"><pre><span></span><span class="linenos">1</span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="mi">25</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">5</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-</pre></div>
-</div>
-<section id="tarea-bucle-for">
-<h2>Tarea Bucle for()<a class="headerlink" href="#tarea-bucle-for" title="Link to this heading">¶</a></h2>
-<p>Monta el circuito de la figura:</p>
+          <section id="primeros-pasos-con-arduino">
+<h1><span class="section-number">1. </span>Primeros pasos con Arduino<a class="headerlink" href="#primeros-pasos-con-arduino" title="Link to this heading">¶</a></h1>
 <figure class="align-center">
-<img alt="_images/arduino-03.png" src="_images/arduino-03.png" />
-</figure>
-<p>Realiza el siguiente programa con el código equivalente a:</p>
-<figure class="align-default">
-<a class="reference internal image-reference" href="_images/arduino-07.png"><img alt="_images/arduino-07.png" src="_images/arduino-07.png" style="width: 420px;" />
+<a class="reference internal image-reference" href="../_images/arduino-01.png"><img alt="../_images/arduino-01.png" src="../_images/arduino-01.png" style="width: 480px;" />
 </a>
 </figure>
-</section>
+<p>Comienza visualizando el vídeo del enlace mientras practicas con el kit
+de Arduino o el simulador de circuitos online TinkerCAD.
+De momento no tienes que entregar ninguna tarea.</p>
+<p>VÍDEO: <a class="reference external" href="https://www.youtube.com/watch?v=QmZUwqoM6y8" rel="noopener noreferrer" target="_blank">Primer programa con Arduino IDE y simulador de TinkerCAD</a></p>
+<p>Ejemplo de programa básico. Encender y apagar el LED integrado:</p>
+<div class="highlight-arduino notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="kr">void</span><span class="w"> </span><span class="nb">setup</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="linenos"> 2</span><span class="w">  </span><span class="nf">pinMode</span><span class="p">(</span><span class="mi">13</span><span class="p">,</span><span class="w"> </span><span class="kr">OUTPUT</span><span class="p">);</span><span class="w">  </span><span class="c1">// Configuramos pin13 como salida</span>
+<span class="linenos"> 3</span><span class="p">}</span>
+<span class="linenos"> 4</span>
+<span class="linenos"> 5</span><span class="kr">void</span><span class="w"> </span><span class="nb">loop</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="linenos"> 6</span><span class="w">  </span><span class="nf">digitalWrite</span><span class="p">(</span><span class="mi">13</span><span class="p">,</span><span class="w"> </span><span class="kr">HIGH</span><span class="p">);</span><span class="w"> </span><span class="c1">// Activamos la salida en el pin13</span>
+<span class="linenos"> 7</span><span class="w">  </span><span class="nf">delay</span><span class="p">(</span><span class="mi">300</span><span class="p">);</span><span class="w">             </span><span class="c1">// Retardo de 300 milisegundos</span>
+<span class="linenos"> 8</span><span class="w">  </span><span class="nf">digitalWrite</span><span class="p">(</span><span class="mi">13</span><span class="p">,</span><span class="w"> </span><span class="kr">LOW</span><span class="p">);</span><span class="w">  </span><span class="c1">// Desactivamos la salida en el pin13</span>
+<span class="linenos"> 9</span><span class="w">  </span><span class="nf">delay</span><span class="p">(</span><span class="mi">300</span><span class="p">);</span><span class="w">             </span><span class="c1">// Retardo de 300 milisegundos</span>
+<span class="linenos">10</span><span class="p">}</span>
+</pre></div>
+</div>
 </section>
 
         </article>
@@ -327,23 +311,23 @@ que podríamos interpretarlo como:</p>
         
 <footer class="custom-footer">
   <div class="related-pages">
-    <a class="next-page" href="arduino-ft-salidas-pwm.html">
+    <a class="next-page" href="protoboard.html">
         <div class="page-info">
           <div class="context">
             <span>Siguiente</span>
           </div>
-          <div class="title"><span class="section-number">5. </span>Salidas PWM</div>
+          <div class="title"><span class="section-number">2. </span>Protoboard y conexión de componentes</div>
         </div>
         <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
       </a>
-    <a class="prev-page" href="arduino-ft-variables.html">
+    <a class="prev-page" href="index.html">
         <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
         <div class="page-info">
           <div class="context">
             <span>Anterior</span>
           </div>
           
-          <div class="title"><span class="section-number">3. </span>Variables</div>
+          <div class="title">Guía Arduino</div>
           
         </div>
       </a>
@@ -355,8 +339,8 @@ que podríamos interpretarlo como:</p>
 
   <div role="contentinfo">
     <ul class="link-list">
-    <li><a href="genindex.html">Glosario</a></li>
-    <li><a href="index.html">Índice</a></li>
+    <li><a href="../genindex.html">Glosario</a></li>
+    <li><a href="../index.html">Índice</a></li>
     <li><a href="https://github.com/tecnoproyectos/tecnoproyectos" target="_blank">GitHub</a></li>
     </ul>
   </div>
@@ -371,41 +355,22 @@ que podríamos interpretarlo como:</p>
   
   
   
-  <p>Actualizado por última vez en 2026-06-21.</p>
+  <p>Actualizado por última vez en 2026-06-20.</p>
   
 
 </footer>
 
       </footer>
     </div>
-    <aside class="toc-drawer">
+    <aside class="toc-drawer no-toc">
       
-      
-      <div class="toc-sticky toc-scroll">
-        <div class="toc-title-container">
-          <span class="toc-title">
-            On this page
-          </span>
-        </div>
-        <div class="toc-tree-container">
-          <div class="toc-tree">
-            <ul>
-<li><a class="reference internal" href="#">4. Bucle for()</a><ul>
-<li><a class="reference internal" href="#tarea-bucle-for">Tarea Bucle for()</a></li>
-</ul>
-</li>
-</ul>
-
-          </div>
-        </div>
-      </div>
       
       
     </aside>
   </div>
-</div><script src="_static/documentation_options.js?v=7406efb5"></script>
-    <script src="_static/doctools.js?v=fd6eb6e6"></script>
-    <script src="_static/sphinx_highlight.js?v=6ffebe34"></script>
-    <script src="_static/scripts/furo.js?v=46bd48cc"></script>
+</div><script src="../_static/documentation_options.js?v=7406efb5"></script>
+    <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../_static/scripts/furo.js?v=46bd48cc"></script>
     </body>
 </html>
