@@ -3,14 +3,14 @@
   <head><meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta property="article:published_time" content="2026-06-21T12:00:00+01:00" />
-<meta property="article:modified_time" content="2026-06-21T12:00:00+01:00" />
+<meta property="article:published_time" content="2026-06-22T12:00:00+01:00" />
+<meta property="article:modified_time" content="2026-06-22T12:00:00+01:00" />
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "4. Bucle for()",
+  "headline": "10. Servomotores",
   "author": {
     "@type": "Person",
     "name": "Francisco Trigueros"
@@ -24,17 +24,17 @@
       "url": "https://tecnoproyectos.github.io/favicon-192.png"
     }
   },
-  "mainEntityOfPage": "https://tecnoproyectos.github.io/arduino-ft-bucle-for.html",
+  "mainEntityOfPage": "https://tecnoproyectos.github.io/arduino-ft-servomotores.html",
   "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-  "datePublished": "2026-06-21T12:00:00+01:00",
-  "dateModified": "2026-06-21T12:00:00+01:00"
+  "datePublished": "2026-06-22T12:00:00+01:00",
+  "dateModified": "2026-06-22T12:00:00+01:00"
 }
 </script>
-<link rel="index" title="Índice" href="genindex.html"><link rel="search" title="Búsqueda" href="search.html"><link rel="next" title="5. Salidas PWM" href="arduino-ft-salidas-pwm.html"><link rel="prev" title="3. Variables" href="arduino-ft-variables.html">
+<link rel="index" title="Índice" href="genindex.html"><link rel="search" title="Búsqueda" href="search.html"><link rel="next" title="11. Potenciómetro" href="arduino-ft-potenciometro.html"><link rel="prev" title="9. Entradas analógicas" href="arduino-ft-entradas-analogicas.html">
         <link rel="prefetch" href="_static/favicon.png" as="image">
 
     <link rel="shortcut icon" href="_static/favicon.ico"><!-- Generated with Sphinx 9.1.0 and Furo 2025.12.19 -->
-        <title>4. Bucle for() - Tecno Proyectos</title>
+        <title>10. Servomotores - Tecno Proyectos</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d111a655" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?v=7bdb33bb" />
     <link rel="stylesheet" type="text/css" href="_static/custom.css?v=ec32ab77" />
@@ -231,13 +231,13 @@
 <li class="toctree-l2"><a class="reference internal" href="arduino-ft-primeros-pasos.html">1. Primeros pasos con Arduino</a></li>
 <li class="toctree-l2"><a class="reference internal" href="arduino-ft-protoboard.html">2. Protoboard y conexión de componentes</a></li>
 <li class="toctree-l2"><a class="reference internal" href="arduino-ft-variables.html">3. Variables</a></li>
-<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">4. Bucle for()</a></li>
+<li class="toctree-l2"><a class="reference internal" href="arduino-ft-bucle-for.html">4. Bucle for()</a></li>
 <li class="toctree-l2"><a class="reference internal" href="arduino-ft-salidas-pwm.html">5. Salidas PWM</a></li>
 <li class="toctree-l2"><a class="reference internal" href="arduino-ft-serial-recibir.html">6. Comunicación serie I</a></li>
 <li class="toctree-l2"><a class="reference internal" href="arduino-ft-serial-enviar.html">7. Comunicación serie II</a></li>
 <li class="toctree-l2"><a class="reference internal" href="arduino-ft-entradas-digitales.html">8. Entradas digitales</a></li>
 <li class="toctree-l2"><a class="reference internal" href="arduino-ft-entradas-analogicas.html">9. Entradas analógicas</a></li>
-<li class="toctree-l2"><a class="reference internal" href="arduino-ft-servomotores.html">10. Servomotores</a></li>
+<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">10. Servomotores</a></li>
 <li class="toctree-l2"><a class="reference internal" href="arduino-ft-potenciometro.html">11. Potenciómetro</a></li>
 </ul>
 </li>
@@ -262,7 +262,7 @@
         </a>
         <div class="content-icon-container">
           <div class="view-this-page">
-  <a class="muted-link" href="_sources/arduino-ft-bucle-for.rst.txt" title="View this page">
+  <a class="muted-link" href="_sources/arduino-ft-servomotores.rst.txt" title="View this page">
     <svg><use href="#svg-eye"></use></svg>
     <span class="visually-hidden">View this page</span>
   </a>
@@ -280,42 +280,57 @@
           </label>
         </div>
         <article role="main" id="furo-main-content">
-          <section id="bucle-for">
-<h1><span class="section-number">4. </span>Bucle for()<a class="headerlink" href="#bucle-for" title="Link to this heading">¶</a></h1>
-<p>VÍDEO: <a class="reference external" href="https://www.youtube.com/watch?v=BBouhq2HR10" rel="noopener noreferrer" target="_blank">Bucles for() en Arduino</a></p>
-<p>Ejemplo de <strong>repetir 5 veces</strong> con el bucle <code class="docutils literal notranslate"><span class="pre">for()</span></code>,
-que podríamos interpretarlo como:</p>
-<ul class="simple">
-<li><p>Comenzando con i igual a 1</p></li>
-<li><p>Repetir mientras i sea menor o igual a 5</p></li>
-<li><p>Aumentando i de uno en uno (i++)</p></li>
-</ul>
-<div class="highlight-arduino notranslate"><div class="highlight"><pre><span></span><span class="linenos">1</span><span class="kr">int</span><span class="w"> </span><span class="n">i</span><span class="p">;</span>
-<span class="linenos">2</span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="mi">5</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-<span class="linenos">3</span><span class="w">  </span><span class="nf">digitalWrite</span><span class="p">(</span><span class="mi">13</span><span class="p">,</span><span class="w"> </span><span class="kr">HIGH</span><span class="p">);</span>
-<span class="linenos">4</span><span class="w">  </span><span class="nf">delay</span><span class="p">(</span><span class="mi">200</span><span class="p">);</span>
-<span class="linenos">5</span><span class="w">  </span><span class="nf">digitalWrite</span><span class="p">(</span><span class="mi">13</span><span class="p">,</span><span class="w"> </span><span class="kr">LOW</span><span class="p">);</span>
-<span class="linenos">6</span><span class="w">  </span><span class="nf">delay</span><span class="p">(</span><span class="mi">200</span><span class="p">);</span>
-<span class="linenos">7</span><span class="p">}</span>
-</pre></div>
-</div>
-<p>Si queremos que el contador disminuya de 1 en 1:</p>
-<div class="highlight-arduino notranslate"><div class="highlight"><pre><span></span><span class="linenos">1</span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">5</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="mi">5</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">--</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-</pre></div>
-</div>
-<p>Si queremos que el contador vaya aumentando de 5 en 5:</p>
-<div class="highlight-arduino notranslate"><div class="highlight"><pre><span></span><span class="linenos">1</span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="mi">25</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">5</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-</pre></div>
-</div>
-<section id="tarea-bucle-for">
-<h2>Tarea Bucle for()<a class="headerlink" href="#tarea-bucle-for" title="Link to this heading">¶</a></h2>
-<p>Monta el circuito de la figura:</p>
+          <section id="servomotores">
+<h1><span class="section-number">10. </span>Servomotores<a class="headerlink" href="#servomotores" title="Link to this heading">¶</a></h1>
+<p>VÍDEO: <a class="reference external" href="https://www.youtube.com/watch?v=kE_ou58E7Hw" rel="noopener noreferrer" target="_blank">Servomotores en Arduino. Guía básica</a></p>
 <figure class="align-center">
-<img alt="_images/arduino-03.png" src="_images/arduino-03.png" />
+<a class="reference internal image-reference" href="_images/arduino-24.png"><img alt="_images/arduino-24.png" src="_images/arduino-24.png" style="width: 300px;" />
+</a>
 </figure>
-<p>Realiza el siguiente programa con el código equivalente a:</p>
-<figure class="align-default">
-<a class="reference internal image-reference" href="_images/arduino-07.png"><img alt="_images/arduino-07.png" src="_images/arduino-07.png" style="width: 420px;" />
+<p>Son motores en los que podemos controlar el ángulo de giro mediante la
+programación del Arduino.</p>
+<p>El modelo SG90 (el de la figura anterior) es muy utilizado porque es el
+más económico, pero no puede transmitir mucha potencia.
+Puede girar de 0º a 180º.</p>
+<p>La conexión básica sería como en la imagen, teniendo que conectar
+<strong>el cable naranja a cualquier salida PWM</strong>.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/arduino-25.png"><img alt="_images/arduino-25.png" src="_images/arduino-25.png" style="width: 360px;" />
+</a>
+</figure>
+<p>Instrucciones básicas para Arduino IDE:</p>
+<div class="highlight-arduino notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;Servo.h&gt;</span><span class="c1">  // Incluimos la librería Servo.h</span>
+<span class="linenos"> 2</span>
+<span class="linenos"> 3</span><span class="nf">Servo</span><span class="w"> </span><span class="n">miServo</span><span class="p">;</span><span class="w">  </span><span class="c1">// asignamos al servomotor el nombre &quot;miServo&quot;</span>
+<span class="linenos"> 4</span>
+<span class="linenos"> 5</span><span class="kr">int</span><span class="w"> </span><span class="n">pinServo</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">9</span><span class="p">;</span><span class="w"> </span><span class="c1">// Pin PWM donde está conectado el servomotor</span>
+<span class="linenos"> 6</span><span class="kr">int</span><span class="w"> </span><span class="n">angulo</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">90</span><span class="p">;</span><span class="w">  </span><span class="c1">// Declaramos la variable con el ángulo de giro</span>
+<span class="linenos"> 7</span>
+<span class="linenos"> 8</span><span class="kr">void</span><span class="w"> </span><span class="nb">setup</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="linenos"> 9</span><span class="w">  </span><span class="c1">// Iniciamos miServo en el pin pinServo</span>
+<span class="linenos">10</span><span class="w">  </span><span class="n">miServo</span><span class="p">.</span><span class="nf">attach</span><span class="p">(</span><span class="n">pinServo</span><span class="p">);</span>
+<span class="linenos">11</span><span class="p">}</span>
+<span class="linenos">12</span>
+<span class="linenos">13</span><span class="kr">void</span><span class="w"> </span><span class="nb">loop</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="linenos">14</span><span class="w">  </span><span class="c1">// Movemos el servomotor al ángulo &quot;anguloServo&quot;</span>
+<span class="linenos">15</span><span class="w">  </span><span class="n">miServo</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="n">angulo</span><span class="p">);</span>
+<span class="linenos">16</span><span class="p">}</span>
+</pre></div>
+</div>
+<section id="tarea-limpiaparabrisas">
+<h2>Tarea limpiaparabrisas<a class="headerlink" href="#tarea-limpiaparabrisas" title="Link to this heading">¶</a></h2>
+<p>Con el montaje básico de la figura anterior, programa el servo usando el
+bucle <code class="docutils literal notranslate"><span class="pre">for( )</span></code> para que haga un movimiento de vaivén como el de un
+limpiaparabrisas de un coche:</p>
+<ul class="simple">
+<li><p>Que vaya aumentando el ángulo de uno en uno desde 5º hasta 175º,
+con una espera de 8 ms entre una posición y la siguiente.</p></li>
+<li><p>Que vaya disminuyendo el ángulo de uno en uno desde 174º hasta 6º
+con una espera de 8 ms entre una posición y la siguiente.</p></li>
+</ul>
+<p>Aquí tienes el programa con bloques que puedes usar como guía:</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/arduino-26.png"><img alt="_images/arduino-26.png" src="_images/arduino-26.png" style="width: 480px;" />
 </a>
 </figure>
 </section>
@@ -327,23 +342,23 @@ que podríamos interpretarlo como:</p>
         
 <footer class="custom-footer">
   <div class="related-pages">
-    <a class="next-page" href="arduino-ft-salidas-pwm.html">
+    <a class="next-page" href="arduino-ft-potenciometro.html">
         <div class="page-info">
           <div class="context">
             <span>Siguiente</span>
           </div>
-          <div class="title"><span class="section-number">5. </span>Salidas PWM</div>
+          <div class="title"><span class="section-number">11. </span>Potenciómetro</div>
         </div>
         <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
       </a>
-    <a class="prev-page" href="arduino-ft-variables.html">
+    <a class="prev-page" href="arduino-ft-entradas-analogicas.html">
         <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
         <div class="page-info">
           <div class="context">
             <span>Anterior</span>
           </div>
           
-          <div class="title"><span class="section-number">3. </span>Variables</div>
+          <div class="title"><span class="section-number">9. </span>Entradas analógicas</div>
           
         </div>
       </a>
@@ -371,7 +386,7 @@ que podríamos interpretarlo como:</p>
   
   
   
-  <p>Actualizado por última vez en 2026-06-21.</p>
+  <p>Actualizado por última vez en 2026-06-22.</p>
   
 
 </footer>
@@ -390,8 +405,8 @@ que podríamos interpretarlo como:</p>
         <div class="toc-tree-container">
           <div class="toc-tree">
             <ul>
-<li><a class="reference internal" href="#">4. Bucle for()</a><ul>
-<li><a class="reference internal" href="#tarea-bucle-for">Tarea Bucle for()</a></li>
+<li><a class="reference internal" href="#">10. Servomotores</a><ul>
+<li><a class="reference internal" href="#tarea-limpiaparabrisas">Tarea limpiaparabrisas</a></li>
 </ul>
 </li>
 </ul>
