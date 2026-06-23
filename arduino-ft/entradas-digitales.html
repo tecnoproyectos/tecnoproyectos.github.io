@@ -239,6 +239,13 @@
 <li class="toctree-l2"><a class="reference internal" href="entradas-analogicas.html">9. Entradas analógicas</a></li>
 <li class="toctree-l2"><a class="reference internal" href="servomotores.html">10. Servomotores</a></li>
 <li class="toctree-l2"><a class="reference internal" href="potenciometro.html">11. Potenciómetro</a></li>
+<li class="toctree-l2"><a class="reference internal" href="variables-tipos.html">12. Tipos de variables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="variables-texto.html">13. Variables de texto</a></li>
+<li class="toctree-l2"><a class="reference internal" href="variables-ambitos.html">14. Ámbitos de variables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="variables-leer.html">15. Leer variables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="constantes.html">16. Constantes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sensor-ultrasonico.html">17. Sensor ultrasónico</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pantalla-lcd.html">18. Pantalla LCD1602</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../colaborar.html">Colaboración con el proyecto</a></li>
@@ -348,6 +355,16 @@ enciendan secuencialmente, tendrás un 10 en la práctica.</p>
 <a class="reference internal image-reference" href="../_images/arduino-ft-16.png"><img alt="../_images/arduino-ft-16.png" src="../_images/arduino-ft-16.png" style="width: 641px;" />
 </a>
 </figure>
+<p>La instrucción señalada con la flecha roja se convierte en el siguiente
+código:</p>
+<div class="highlight-arduino notranslate"><div class="highlight"><pre><span></span><span class="hll"><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">valorPulsador1</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="n">valorPulsador2</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">1</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span class="w">  </span><span class="nf">digitalWrite</span><span class="p">(</span><span class="n">pinLed</span><span class="p">,</span><span class="w"> </span><span class="kr">HIGH</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="k">else</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="nf">digitalWrite</span><span class="p">(</span><span class="n">pinLed</span><span class="p">,</span><span class="w"> </span><span class="kr">LOW</span><span class="p">);</span>
+<span class="p">}</span>
+</pre></div>
+</div>
 </section>
 <section id="tarea-pulsadores-or">
 <h2>Tarea Pulsadores OR<a class="headerlink" href="#tarea-pulsadores-or" title="Link to this heading">¶</a></h2>
@@ -362,6 +379,16 @@ un LED y una resistencia de 220Ω.</p>
 <a class="reference internal image-reference" href="../_images/arduino-ft-17.png"><img alt="../_images/arduino-ft-17.png" src="../_images/arduino-ft-17.png" style="width: 641px;" />
 </a>
 </figure>
+<p>La instrucción señalada con la flecha roja se convierte en el siguiente
+código:</p>
+<div class="highlight-arduino notranslate"><div class="highlight"><pre><span></span><span class="hll"><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">valorPulsador1</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="n">valorPulsador2</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">1</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span class="w">  </span><span class="nf">digitalWrite</span><span class="p">(</span><span class="n">pinLed</span><span class="p">,</span><span class="w"> </span><span class="kr">HIGH</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="k">else</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="nf">digitalWrite</span><span class="p">(</span><span class="n">pinLed</span><span class="p">,</span><span class="w"> </span><span class="kr">LOW</span><span class="p">);</span>
+<span class="p">}</span>
+</pre></div>
+</div>
 </section>
 </section>
 

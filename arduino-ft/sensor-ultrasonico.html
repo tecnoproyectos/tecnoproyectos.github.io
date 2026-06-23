@@ -3,14 +3,14 @@
   <head><meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta property="article:published_time" content="2026-06-22T12:00:00+01:00" />
-<meta property="article:modified_time" content="2026-06-22T12:00:00+01:00" />
+<meta property="article:published_time" content="2026-06-23T12:00:00+01:00" />
+<meta property="article:modified_time" content="2026-06-23T12:00:00+01:00" />
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "10. Servomotores",
+  "headline": "17. Sensor ultrasónico",
   "author": {
     "@type": "Person",
     "name": "Francisco Trigueros"
@@ -24,17 +24,17 @@
       "url": "https://tecnoproyectos.github.io/favicon-192.png"
     }
   },
-  "mainEntityOfPage": "https://tecnoproyectos.github.io/arduino-ft/servomotores.html",
+  "mainEntityOfPage": "https://tecnoproyectos.github.io/arduino-ft/sensor-ultrasonico.html",
   "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-  "datePublished": "2026-06-22T12:00:00+01:00",
-  "dateModified": "2026-06-22T12:00:00+01:00"
+  "datePublished": "2026-06-23T12:00:00+01:00",
+  "dateModified": "2026-06-23T12:00:00+01:00"
 }
 </script>
-<link rel="index" title="Índice" href="../genindex.html"><link rel="search" title="Búsqueda" href="../search.html"><link rel="next" title="11. Potenciómetro" href="potenciometro.html"><link rel="prev" title="9. Entradas analógicas" href="entradas-analogicas.html">
+<link rel="index" title="Índice" href="../genindex.html"><link rel="search" title="Búsqueda" href="../search.html"><link rel="next" title="18. Pantalla LCD1602" href="pantalla-lcd.html"><link rel="prev" title="16. Constantes" href="constantes.html">
         <link rel="prefetch" href="../_static/favicon.png" as="image">
 
     <link rel="shortcut icon" href="../_static/favicon.ico"><!-- Generated with Sphinx 9.1.0 and Furo 2025.12.19 -->
-        <title>10. Servomotores - Tecno Proyectos</title>
+        <title>17. Sensor ultrasónico - Tecno Proyectos</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d111a655" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=7bdb33bb" />
     <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=ec32ab77" />
@@ -237,15 +237,16 @@
 <li class="toctree-l2"><a class="reference internal" href="serial-enviar.html">7. Comunicación serie II</a></li>
 <li class="toctree-l2"><a class="reference internal" href="entradas-digitales.html">8. Entradas digitales</a></li>
 <li class="toctree-l2"><a class="reference internal" href="entradas-analogicas.html">9. Entradas analógicas</a></li>
-<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">10. Servomotores</a></li>
+<li class="toctree-l2"><a class="reference internal" href="servomotores.html">10. Servomotores</a></li>
 <li class="toctree-l2"><a class="reference internal" href="potenciometro.html">11. Potenciómetro</a></li>
 <li class="toctree-l2"><a class="reference internal" href="variables-tipos.html">12. Tipos de variables</a></li>
 <li class="toctree-l2"><a class="reference internal" href="variables-texto.html">13. Variables de texto</a></li>
 <li class="toctree-l2"><a class="reference internal" href="variables-ambitos.html">14. Ámbitos de variables</a></li>
 <li class="toctree-l2"><a class="reference internal" href="variables-leer.html">15. Leer variables</a></li>
 <li class="toctree-l2"><a class="reference internal" href="constantes.html">16. Constantes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="sensor-ultrasonico.html">17. Sensor ultrasónico</a></li>
+<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">17. Sensor ultrasónico</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pantalla-lcd.html">18. Pantalla LCD1602</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sensor-dht11.html">19. Sensor DTH11</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../colaborar.html">Colaboración con el proyecto</a></li>
@@ -270,7 +271,7 @@
         </a>
         <div class="content-icon-container">
           <div class="view-this-page">
-  <a class="muted-link" href="../_sources/arduino-ft/servomotores.rst.txt" title="View this page">
+  <a class="muted-link" href="../_sources/arduino-ft/sensor-ultrasonico.rst.txt" title="View this page">
     <svg><use href="#svg-eye"></use></svg>
     <span class="visually-hidden">View this page</span>
   </a>
@@ -288,59 +289,81 @@
           </label>
         </div>
         <article role="main" id="furo-main-content">
-          <section id="servomotores">
-<h1><span class="section-number">10. </span>Servomotores<a class="headerlink" href="#servomotores" title="Link to this heading">¶</a></h1>
-<p><a class="reference internal" href="../_images/arduino-ft-video.png"><img alt="Icono de vídeo de YouTube" src="../_images/arduino-ft-video.png" style="height: 32px;" /></a> VÍDEO: <a class="reference external" href="https://www.youtube.com/watch?v=kE_ou58E7Hw" rel="noopener noreferrer" target="_blank">Servomotores en Arduino. Guía básica</a></p>
+          <section id="sensor-ultrasonico">
+<h1><span class="section-number">17. </span>Sensor ultrasónico<a class="headerlink" href="#sensor-ultrasonico" title="Link to this heading">¶</a></h1>
+<p><a class="reference internal" href="../_images/arduino-ft-video.png"><img alt="Icono de vídeo de YouTube" src="../_images/arduino-ft-video.png" style="height: 32px;" /></a> VÍDEO: <a class="reference external" href="https://www.youtube.com/watch?v=T7k-bUrIvc8" rel="noopener noreferrer" target="_blank">Dos maneras de programar el sensor de distancia</a></p>
+<p>Los sensores de distancia HC-SR04 utilizan ondas ultrasónicas para
+determinar la distancia entre el sensor y un objeto.
+El sensor mide con una precisión aceptable entre 2 cm y 400 cm.</p>
+<figure class="align-center" id="id1">
+<a class="reference internal image-reference" href="../_images/arduino-ft-33.jpg"><img alt="../_images/arduino-ft-33.jpg" src="../_images/arduino-ft-33.jpg" style="width: 256px;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Figura 17.1</span><span class="caption-text">Sensor de distancia ultrasónico HC-SR04.</span><a class="headerlink" href="#id1" title="Link to this image">¶</a></p>
+</figcaption>
+</figure>
+<p>Las patillas TRIG (trigguer o disparador) y ECHO (eco) pueden ir a
+cualquier pin digital de Arduino, configurando el TRIG como salida
+digital y ECHO como entrada.</p>
+<p>El montaje básico sería:</p>
 <figure class="align-center">
-<a class="reference internal image-reference" href="../_images/arduino-ft-24.jpg"><img alt="../_images/arduino-ft-24.jpg" src="../_images/arduino-ft-24.jpg" style="width: 300px;" />
+<a class="reference internal image-reference" href="../_images/arduino-ft-34.png"><img alt="../_images/arduino-ft-34.png" src="../_images/arduino-ft-34.png" style="width: 480px;" />
 </a>
 </figure>
-<p>Son motores en los que podemos controlar el ángulo de giro mediante la
-programación del Arduino.</p>
-<p>El modelo SG90 (el de la figura anterior) es muy utilizado porque es el
-más económico, pero no puede transmitir mucha potencia.
-Puede girar de 0º a 180º.</p>
-<p>La conexión básica sería como en la imagen, teniendo que conectar
-<strong>el cable naranja a cualquier salida PWM</strong>.</p>
-<figure class="align-center">
-<a class="reference internal image-reference" href="../_images/arduino-ft-25.png"><img alt="../_images/arduino-ft-25.png" src="../_images/arduino-ft-25.png" style="width: 360px;" />
-</a>
-</figure>
-<p>Instrucciones básicas para Arduino IDE:</p>
-<div class="highlight-arduino notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;Servo.h&gt;</span><span class="c1">  // Incluimos la librería Servo.h</span>
-<span class="linenos"> 2</span>
-<span class="linenos"> 3</span><span class="nf">Servo</span><span class="w"> </span><span class="n">miServo</span><span class="p">;</span><span class="w">  </span><span class="c1">// asignamos al servomotor el nombre &quot;miServo&quot;</span>
-<span class="linenos"> 4</span>
-<span class="linenos"> 5</span><span class="kr">int</span><span class="w"> </span><span class="n">pinServo</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">9</span><span class="p">;</span><span class="w"> </span><span class="c1">// Pin PWM donde está conectado el servomotor</span>
-<span class="linenos"> 6</span><span class="kr">int</span><span class="w"> </span><span class="n">angulo</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">90</span><span class="p">;</span><span class="w">  </span><span class="c1">// Declaramos la variable con el ángulo de giro</span>
-<span class="linenos"> 7</span>
-<span class="linenos"> 8</span><span class="kr">void</span><span class="w"> </span><span class="nb">setup</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
-<span class="linenos"> 9</span><span class="w">  </span><span class="c1">// Iniciamos miServo en el pin pinServo</span>
-<span class="linenos">10</span><span class="w">  </span><span class="n">miServo</span><span class="p">.</span><span class="nf">attach</span><span class="p">(</span><span class="n">pinServo</span><span class="p">);</span>
-<span class="linenos">11</span><span class="p">}</span>
-<span class="linenos">12</span>
-<span class="linenos">13</span><span class="kr">void</span><span class="w"> </span><span class="nb">loop</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
-<span class="linenos">14</span><span class="w">  </span><span class="c1">// Movemos el servomotor al ángulo &quot;anguloServo&quot;</span>
-<span class="linenos">15</span><span class="w">  </span><span class="n">miServo</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="n">angulo</span><span class="p">);</span>
-<span class="linenos">16</span><span class="p">}</span>
+<section id="programacion-del-sensor">
+<h2>Programación del sensor<a class="headerlink" href="#programacion-del-sensor" title="Link to this heading">¶</a></h2>
+<p>Hay dos posibles formas de programar el sensor. Sin biblioteca o con
+biblioteca.</p>
+<p>Sin biblioteca, con más líneas de código, quedaría así:</p>
+<div class="highlight-arduino notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="kr">const</span><span class="w"> </span><span class="kr">int</span><span class="w"> </span><span class="n">TRIG</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">9</span><span class="p">;</span><span class="w">     </span><span class="c1">// Definimos un pin digital para TRIG</span>
+<span class="linenos"> 2</span><span class="kr">const</span><span class="w"> </span><span class="kr">int</span><span class="w"> </span><span class="n">ECHO</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">8</span><span class="p">;</span><span class="w">     </span><span class="c1">// Definimos un pin digital para ECHO</span>
+<span class="linenos"> 3</span><span class="kr">long</span><span class="w"> </span><span class="n">tiempo</span><span class="p">,</span><span class="w"> </span><span class="n">distancia</span><span class="p">;</span><span class="w"> </span><span class="c1">// Variables de tipo long por ser cantidades</span>
+<span class="linenos"> 4</span><span class="w">                        </span><span class="c1">// grandes en microsegundos</span>
+<span class="linenos"> 5</span>
+<span class="linenos"> 6</span><span class="kr">void</span><span class="w"> </span><span class="nb">setup</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="linenos"> 7</span><span class="w">  </span><span class="nf">pinMode</span><span class="p">(</span><span class="n">TRIG</span><span class="p">,</span><span class="w"> </span><span class="kr">OUTPUT</span><span class="p">);</span><span class="w"> </span><span class="c1">// El pin TRIG es de salida</span>
+<span class="linenos"> 8</span><span class="w">  </span><span class="nf">pinMode</span><span class="p">(</span><span class="n">ECHO</span><span class="p">,</span><span class="w"> </span><span class="kr">INPUT</span><span class="p">);</span><span class="w">  </span><span class="c1">// El pin ECHO de entrada</span>
+<span class="linenos"> 9</span><span class="w">  </span><span class="nf">Serial</span><span class="p">.</span><span class="nf">begin</span><span class="p">(</span><span class="mi">9600</span><span class="p">);</span>
+<span class="linenos">10</span><span class="p">}</span>
+<span class="linenos">11</span>
+<span class="linenos">12</span><span class="kr">void</span><span class="w"> </span><span class="nb">loop</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="linenos">13</span><span class="w">  </span><span class="c1">//Emitimos un pulso de 10µs</span>
+<span class="linenos">14</span><span class="w">  </span><span class="nf">digitalWrite</span><span class="p">(</span><span class="n">TRIG</span><span class="p">,</span><span class="w"> </span><span class="kr">LOW</span><span class="p">);</span><span class="w">  </span><span class="c1">// Nos aseguramos de que el trigger está desactivado</span>
+<span class="linenos">15</span><span class="w">  </span><span class="nf">delayMicroseconds</span><span class="p">(</span><span class="mi">2</span><span class="p">);</span><span class="w">     </span><span class="c1">// Esperamos 2µs</span>
+<span class="linenos">16</span><span class="w">  </span><span class="nf">digitalWrite</span><span class="p">(</span><span class="n">TRIG</span><span class="p">,</span><span class="w"> </span><span class="kr">HIGH</span><span class="p">);</span><span class="w"> </span><span class="c1">// Mandamos un pulso de 10µs al TRIG</span>
+<span class="linenos">17</span><span class="w">  </span><span class="nf">delayMicroseconds</span><span class="p">(</span><span class="mi">10</span><span class="p">);</span>
+<span class="linenos">18</span><span class="w">  </span><span class="nf">digitalWrite</span><span class="p">(</span><span class="n">TRIG</span><span class="p">,</span><span class="w"> </span><span class="kr">LOW</span><span class="p">);</span>
+<span class="linenos">19</span>
+<span class="linenos">20</span><span class="w">  </span><span class="n">tiempo</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">pulseIn</span><span class="p">(</span><span class="n">ECHO</span><span class="p">,</span><span class="w"> </span><span class="kr">HIGH</span><span class="p">);</span><span class="w"> </span><span class="c1">// Mide en µs el tiempo en detectar el eco</span>
+<span class="linenos">21</span><span class="w">  </span><span class="n">distancia</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">tiempo</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mf">0.017</span><span class="p">;</span><span class="w">   </span><span class="c1">// Convertimos µs -&gt; cm</span>
+<span class="linenos">22</span>
+<span class="linenos">23</span><span class="w">  </span><span class="nf">Serial</span><span class="p">.</span><span class="nf">print</span><span class="p">(</span><span class="n">distancia</span><span class="p">);</span><span class="w">  </span><span class="c1">// Mostramos la distancia en el monitor serial</span>
+<span class="linenos">24</span><span class="w">  </span><span class="nf">Serial</span><span class="p">.</span><span class="nf">println</span><span class="p">(</span><span class="s">&quot; cm&quot;</span><span class="p">);</span>
+<span class="linenos">25</span>
+<span class="linenos">26</span><span class="w">  </span><span class="nf">delay</span><span class="p">(</span><span class="mi">1000</span><span class="p">);</span><span class="w"> </span><span class="c1">// Tiempo entre mediciones</span>
+<span class="linenos">27</span><span class="p">}</span>
 </pre></div>
 </div>
-<section id="tarea-limpiaparabrisas">
-<h2>Tarea limpiaparabrisas<a class="headerlink" href="#tarea-limpiaparabrisas" title="Link to this heading">¶</a></h2>
-<p>Con el montaje básico de la figura anterior, programa el servo usando el
-bucle <code class="docutils literal notranslate"><span class="pre">for( )</span></code> para que haga un movimiento de vaivén como el de un
-limpiaparabrisas de un coche:</p>
-<ul class="simple">
-<li><p>Que vaya aumentando el ángulo de uno en uno desde 5º hasta 175º,
-con una espera de 8 ms entre una posición y la siguiente.</p></li>
-<li><p>Que vaya disminuyendo el ángulo de uno en uno desde 174º hasta 6º
-con una espera de 8 ms entre una posición y la siguiente.</p></li>
-</ul>
-<p>Aquí tienes el programa con bloques que puedes usar como guía:</p>
-<figure class="align-center">
-<a class="reference internal image-reference" href="../_images/arduino-ft-26.png"><img alt="../_images/arduino-ft-26.png" src="../_images/arduino-ft-26.png" style="width: 480px;" />
-</a>
-</figure>
+<p>Con biblioteca, con menos líneas de código, quedaría así:</p>
+<div class="highlight-arduino notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;Ultrasonic.h&gt;</span><span class="c1">  // Librería Ultrasonic de Erick Simões</span>
+<span class="linenos"> 2</span>
+<span class="linenos"> 3</span><span class="n">Ultrasonic</span><span class="w"> </span><span class="nf">sensorDistancia</span><span class="p">(</span><span class="mi">9</span><span class="p">,</span><span class="w"> </span><span class="mi">8</span><span class="p">);</span><span class="w"> </span><span class="c1">// Pines de TRIG y de ECHO</span>
+<span class="linenos"> 4</span><span class="kr">int</span><span class="w"> </span><span class="n">distancia</span><span class="p">;</span>
+<span class="linenos"> 5</span>
+<span class="linenos"> 6</span><span class="kr">void</span><span class="w"> </span><span class="nb">setup</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="linenos"> 7</span><span class="w">  </span><span class="nf">Serial</span><span class="p">.</span><span class="nf">begin</span><span class="p">(</span><span class="mi">9600</span><span class="p">);</span>
+<span class="linenos"> 8</span><span class="p">}</span>
+<span class="linenos"> 9</span>
+<span class="linenos">10</span><span class="kr">void</span><span class="w"> </span><span class="nb">loop</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="linenos">11</span><span class="w">  </span><span class="n">distancia</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">sensorDistancia</span><span class="p">.</span><span class="nf">read</span><span class="p">();</span><span class="w">  </span><span class="c1">// Lee la distancia en cm</span>
+<span class="linenos">12</span>
+<span class="linenos">13</span><span class="w">  </span><span class="nf">Serial</span><span class="p">.</span><span class="nf">print</span><span class="p">(</span><span class="n">distancia</span><span class="p">);</span>
+<span class="linenos">14</span><span class="w">  </span><span class="nf">Serial</span><span class="p">.</span><span class="nf">println</span><span class="p">(</span><span class="s">&quot; cm&quot;</span><span class="p">);</span>
+<span class="linenos">15</span>
+<span class="linenos">16</span><span class="w">  </span><span class="nf">delay</span><span class="p">(</span><span class="mi">1000</span><span class="p">);</span><span class="w"> </span><span class="c1">// Tiempo entre mediciones</span>
+<span class="linenos">17</span><span class="p">}</span>
+</pre></div>
+</div>
 </section>
 </section>
 
@@ -350,23 +373,23 @@ con una espera de 8 ms entre una posición y la siguiente.</p></li>
         
 <footer class="custom-footer">
   <div class="related-pages">
-    <a class="next-page" href="potenciometro.html">
+    <a class="next-page" href="pantalla-lcd.html">
         <div class="page-info">
           <div class="context">
             <span>Siguiente</span>
           </div>
-          <div class="title"><span class="section-number">11. </span>Potenciómetro</div>
+          <div class="title"><span class="section-number">18. </span>Pantalla LCD1602</div>
         </div>
         <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
       </a>
-    <a class="prev-page" href="entradas-analogicas.html">
+    <a class="prev-page" href="constantes.html">
         <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
         <div class="page-info">
           <div class="context">
             <span>Anterior</span>
           </div>
           
-          <div class="title"><span class="section-number">9. </span>Entradas analógicas</div>
+          <div class="title"><span class="section-number">16. </span>Constantes</div>
           
         </div>
       </a>
@@ -394,7 +417,7 @@ con una espera de 8 ms entre una posición y la siguiente.</p></li>
   
   
   
-  <p>Actualizado por última vez en 2026-06-22.</p>
+  <p>Actualizado por última vez en 2026-06-23.</p>
   
 
 </footer>
@@ -413,8 +436,8 @@ con una espera de 8 ms entre una posición y la siguiente.</p></li>
         <div class="toc-tree-container">
           <div class="toc-tree">
             <ul>
-<li><a class="reference internal" href="#">10. Servomotores</a><ul>
-<li><a class="reference internal" href="#tarea-limpiaparabrisas">Tarea limpiaparabrisas</a></li>
+<li><a class="reference internal" href="#">17. Sensor ultrasónico</a><ul>
+<li><a class="reference internal" href="#programacion-del-sensor">Programación del sensor</a></li>
 </ul>
 </li>
 </ul>

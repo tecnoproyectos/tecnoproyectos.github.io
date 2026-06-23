@@ -321,15 +321,15 @@ girar su mando, aunque también las hay deslizables.</p>
 <span class="linenos"> 6</span><span class="p">}</span>
 <span class="linenos"> 7</span>
 <span class="linenos"> 8</span><span class="kr">void</span><span class="w"> </span><span class="nb">loop</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
-<span class="linenos"> 9</span><span class="w">  </span><span class="n">valorPotenciometro</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">analogRead</span><span class="p">(</span><span class="n">pinPotenciometro</span><span class="p">);</span>
-<span class="linenos">10</span><span class="w">  </span><span class="nf">Serial</span><span class="p">.</span><span class="nf">println</span><span class="p">(</span><span class="n">valorPotenciometro</span><span class="p">);</span>
+<span class="hll"><span class="linenos"> 9</span><span class="w">  </span><span class="n">valorPotenciometro</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">analogRead</span><span class="p">(</span><span class="n">pinPotenciometro</span><span class="p">);</span>
+</span><span class="linenos">10</span><span class="w">  </span><span class="nf">Serial</span><span class="p">.</span><span class="nf">println</span><span class="p">(</span><span class="n">valorPotenciometro</span><span class="p">);</span>
 <span class="linenos">11</span><span class="w">  </span><span class="nf">delay</span><span class="p">(</span><span class="mi">1000</span><span class="p">);</span>
 <span class="linenos">12</span><span class="p">}</span>
 </pre></div>
 </div>
 <section id="funcion-map">
 <h2>Función <span class="target" id="index-0"></span>map()<a class="headerlink" href="#funcion-map" title="Link to this heading">¶</a></h2>
-<p>La <strong>función ``map( )``</strong> en Arduino permite remapear un número desde
+<p>La <strong>función map()</strong> en Arduino permite remapear un número desde
 un rango a otro. Es útil para hacer equivalencias entre diferentes
 rangos. Por ejemplo para remapear una lectura analógica que está en un
 rango de 0-1023 a un nivel de salida PWM que está en un rango 0-255.</p>

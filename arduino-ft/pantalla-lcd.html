@@ -3,14 +3,14 @@
   <head><meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta property="article:published_time" content="2026-06-22T12:00:00+01:00" />
-<meta property="article:modified_time" content="2026-06-22T12:00:00+01:00" />
+<meta property="article:published_time" content="2026-06-23T12:00:00+01:00" />
+<meta property="article:modified_time" content="2026-06-23T12:00:00+01:00" />
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "10. Servomotores",
+  "headline": "18. Pantalla LCD1602",
   "author": {
     "@type": "Person",
     "name": "Francisco Trigueros"
@@ -24,17 +24,17 @@
       "url": "https://tecnoproyectos.github.io/favicon-192.png"
     }
   },
-  "mainEntityOfPage": "https://tecnoproyectos.github.io/arduino-ft/servomotores.html",
+  "mainEntityOfPage": "https://tecnoproyectos.github.io/arduino-ft/pantalla-lcd.html",
   "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-  "datePublished": "2026-06-22T12:00:00+01:00",
-  "dateModified": "2026-06-22T12:00:00+01:00"
+  "datePublished": "2026-06-23T12:00:00+01:00",
+  "dateModified": "2026-06-23T12:00:00+01:00"
 }
 </script>
-<link rel="index" title="Índice" href="../genindex.html"><link rel="search" title="Búsqueda" href="../search.html"><link rel="next" title="11. Potenciómetro" href="potenciometro.html"><link rel="prev" title="9. Entradas analógicas" href="entradas-analogicas.html">
+<link rel="index" title="Índice" href="../genindex.html"><link rel="search" title="Búsqueda" href="../search.html"><link rel="next" title="19. Sensor DTH11" href="sensor-dht11.html"><link rel="prev" title="17. Sensor ultrasónico" href="sensor-ultrasonico.html">
         <link rel="prefetch" href="../_static/favicon.png" as="image">
 
     <link rel="shortcut icon" href="../_static/favicon.ico"><!-- Generated with Sphinx 9.1.0 and Furo 2025.12.19 -->
-        <title>10. Servomotores - Tecno Proyectos</title>
+        <title>18. Pantalla LCD1602 - Tecno Proyectos</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d111a655" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=7bdb33bb" />
     <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=ec32ab77" />
@@ -237,7 +237,7 @@
 <li class="toctree-l2"><a class="reference internal" href="serial-enviar.html">7. Comunicación serie II</a></li>
 <li class="toctree-l2"><a class="reference internal" href="entradas-digitales.html">8. Entradas digitales</a></li>
 <li class="toctree-l2"><a class="reference internal" href="entradas-analogicas.html">9. Entradas analógicas</a></li>
-<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">10. Servomotores</a></li>
+<li class="toctree-l2"><a class="reference internal" href="servomotores.html">10. Servomotores</a></li>
 <li class="toctree-l2"><a class="reference internal" href="potenciometro.html">11. Potenciómetro</a></li>
 <li class="toctree-l2"><a class="reference internal" href="variables-tipos.html">12. Tipos de variables</a></li>
 <li class="toctree-l2"><a class="reference internal" href="variables-texto.html">13. Variables de texto</a></li>
@@ -245,7 +245,8 @@
 <li class="toctree-l2"><a class="reference internal" href="variables-leer.html">15. Leer variables</a></li>
 <li class="toctree-l2"><a class="reference internal" href="constantes.html">16. Constantes</a></li>
 <li class="toctree-l2"><a class="reference internal" href="sensor-ultrasonico.html">17. Sensor ultrasónico</a></li>
-<li class="toctree-l2"><a class="reference internal" href="pantalla-lcd.html">18. Pantalla LCD1602</a></li>
+<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">18. Pantalla LCD1602</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sensor-dht11.html">19. Sensor DTH11</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../colaborar.html">Colaboración con el proyecto</a></li>
@@ -270,7 +271,7 @@
         </a>
         <div class="content-icon-container">
           <div class="view-this-page">
-  <a class="muted-link" href="../_sources/arduino-ft/servomotores.rst.txt" title="View this page">
+  <a class="muted-link" href="../_sources/arduino-ft/pantalla-lcd.rst.txt" title="View this page">
     <svg><use href="#svg-eye"></use></svg>
     <span class="visually-hidden">View this page</span>
   </a>
@@ -288,59 +289,145 @@
           </label>
         </div>
         <article role="main" id="furo-main-content">
-          <section id="servomotores">
-<h1><span class="section-number">10. </span>Servomotores<a class="headerlink" href="#servomotores" title="Link to this heading">¶</a></h1>
-<p><a class="reference internal" href="../_images/arduino-ft-video.png"><img alt="Icono de vídeo de YouTube" src="../_images/arduino-ft-video.png" style="height: 32px;" /></a> VÍDEO: <a class="reference external" href="https://www.youtube.com/watch?v=kE_ou58E7Hw" rel="noopener noreferrer" target="_blank">Servomotores en Arduino. Guía básica</a></p>
+          <section id="pantalla-lcd1602">
+<h1><span class="section-number">18. </span>Pantalla LCD1602<a class="headerlink" href="#pantalla-lcd1602" title="Link to this heading">¶</a></h1>
+<p><a class="reference internal" href="../_images/arduino-ft-video.png"><img alt="Icono de vídeo de YouTube" src="../_images/arduino-ft-video.png" style="height: 32px;" /></a> VÍDEO: <a class="reference external" href="https://www.youtube.com/watch?v=YWU2VdI-G4Q" rel="noopener noreferrer" target="_blank">Pantalla LCD1602 con Arduino</a></p>
+<p>La pantalla LCD1602 (16 columnas x 02 filas) para microcontrolador Arduino
+permite mostrar visualmente los datos de los sensores.</p>
+<figure class="align-center" id="id1">
+<a class="reference internal image-reference" href="../_images/arduino-ft-35.jpg"><img alt="../_images/arduino-ft-35.jpg" src="../_images/arduino-ft-35.jpg" style="width: 225px;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Figura 18.1</span><span class="caption-text">Pantalla LCD1602 con conexión I2C.</span><a class="headerlink" href="#id1" title="Link to this image">¶</a></p>
+</figcaption>
+</figure>
+<p>Nosotros vamos a usar la que tiene un módulo I2C que reduce las conexiones
+a 4 cables:</p>
+<ul class="simple">
+<li><p>GND</p></li>
+<li><p>Vcc (5V)</p></li>
+<li><p>SDA: serial data, siempre conectado al pin A4 en Arduino UNO.</p></li>
+<li><p>SCL: serial clock, siempre conectado al pin A5 en Arduino UNO.</p></li>
+</ul>
 <figure class="align-center">
-<a class="reference internal image-reference" href="../_images/arduino-ft-24.jpg"><img alt="../_images/arduino-ft-24.jpg" src="../_images/arduino-ft-24.jpg" style="width: 300px;" />
+<a class="reference internal image-reference" href="../_images/arduino-ft-36.png"><img alt="../_images/arduino-ft-36.png" src="../_images/arduino-ft-36.png" style="width: 920px;" />
 </a>
 </figure>
-<p>Son motores en los que podemos controlar el ángulo de giro mediante la
-programación del Arduino.</p>
-<p>El modelo SG90 (el de la figura anterior) es muy utilizado porque es el
-más económico, pero no puede transmitir mucha potencia.
-Puede girar de 0º a 180º.</p>
-<p>La conexión básica sería como en la imagen, teniendo que conectar
-<strong>el cable naranja a cualquier salida PWM</strong>.</p>
+<section id="instalacion-de-la-biblioteca">
+<h2>Instalación de la biblioteca<a class="headerlink" href="#instalacion-de-la-biblioteca" title="Link to this heading">¶</a></h2>
+<p>Nos vamos al menú Herramientas –&gt; Gestionar bibliotecas e instalamos
+la siguiente:</p>
+<ul>
+<li><p>En Arduino IDE 1: LiquidCrystal I2C de Marco Schwartz
+(ponemos Schwartz en el buscador):</p>
 <figure class="align-center">
-<a class="reference internal image-reference" href="../_images/arduino-ft-25.png"><img alt="../_images/arduino-ft-25.png" src="../_images/arduino-ft-25.png" style="width: 360px;" />
+<a class="reference internal image-reference" href="../_images/arduino-ft-37.png"><img alt="../_images/arduino-ft-37.png" src="../_images/arduino-ft-37.png" style="width: 800px;" />
 </a>
 </figure>
-<p>Instrucciones básicas para Arduino IDE:</p>
-<div class="highlight-arduino notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;Servo.h&gt;</span><span class="c1">  // Incluimos la librería Servo.h</span>
-<span class="linenos"> 2</span>
-<span class="linenos"> 3</span><span class="nf">Servo</span><span class="w"> </span><span class="n">miServo</span><span class="p">;</span><span class="w">  </span><span class="c1">// asignamos al servomotor el nombre &quot;miServo&quot;</span>
+</li>
+<li><p>En Arduino IDE 2: LiquidCrystal I2C de Frank de Brabander
+(ponemos Brabander en el buscador):</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/arduino-ft-38.png"><img alt="../_images/arduino-ft-38.png" src="../_images/arduino-ft-38.png" style="width: 800px;" />
+</a>
+</figure>
+</li>
+</ul>
+</section>
+<section id="programacion-basica">
+<h2>Programación básica<a class="headerlink" href="#programacion-basica" title="Link to this heading">¶</a></h2>
+<div class="highlight-arduino notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="c1">// Incluímos las dos bibliotecas siguientes:</span>
+<span class="linenos"> 2</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;Wire.h&quot;</span>
+<span class="linenos"> 3</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;LiquidCrystal_I2C.h&quot;</span>
 <span class="linenos"> 4</span>
-<span class="linenos"> 5</span><span class="kr">int</span><span class="w"> </span><span class="n">pinServo</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">9</span><span class="p">;</span><span class="w"> </span><span class="c1">// Pin PWM donde está conectado el servomotor</span>
-<span class="linenos"> 6</span><span class="kr">int</span><span class="w"> </span><span class="n">angulo</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">90</span><span class="p">;</span><span class="w">  </span><span class="c1">// Declaramos la variable con el ángulo de giro</span>
-<span class="linenos"> 7</span>
-<span class="linenos"> 8</span><span class="kr">void</span><span class="w"> </span><span class="nb">setup</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
-<span class="linenos"> 9</span><span class="w">  </span><span class="c1">// Iniciamos miServo en el pin pinServo</span>
-<span class="linenos">10</span><span class="w">  </span><span class="n">miServo</span><span class="p">.</span><span class="nf">attach</span><span class="p">(</span><span class="n">pinServo</span><span class="p">);</span>
-<span class="linenos">11</span><span class="p">}</span>
+<span class="linenos"> 5</span><span class="c1">//definimos el display con el nombre lcd,</span>
+<span class="linenos"> 6</span><span class="c1">//la LCD está en la dirección I2C 0x27, tiene 16 columnas y 2 filas:</span>
+<span class="linenos"> 7</span><span class="n">LiquidCrystal_I2C</span><span class="w"> </span><span class="nf">lcd</span><span class="p">(</span><span class="mh">0x27</span><span class="p">,</span><span class="w"> </span><span class="mi">16</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">);</span>
+<span class="linenos"> 8</span>
+<span class="linenos"> 9</span><span class="kr">void</span><span class="w"> </span><span class="nb">setup</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="linenos">10</span><span class="w">  </span><span class="n">lcd</span><span class="p">.</span><span class="n">init</span><span class="p">();</span><span class="w">      </span><span class="c1">// Iniciamos el LCD</span>
+<span class="linenos">11</span><span class="w">  </span><span class="n">lcd</span><span class="p">.</span><span class="n">backlight</span><span class="p">();</span><span class="w"> </span><span class="c1">// Encendemos la retroiluminación</span>
 <span class="linenos">12</span>
-<span class="linenos">13</span><span class="kr">void</span><span class="w"> </span><span class="nb">loop</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
-<span class="linenos">14</span><span class="w">  </span><span class="c1">// Movemos el servomotor al ángulo &quot;anguloServo&quot;</span>
-<span class="linenos">15</span><span class="w">  </span><span class="n">miServo</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="n">angulo</span><span class="p">);</span>
-<span class="linenos">16</span><span class="p">}</span>
+<span class="linenos">13</span><span class="w">  </span><span class="c1">// Colocamos el cursor donde queremos que inicie el texto</span>
+<span class="linenos">14</span><span class="w">  </span><span class="c1">// Comenzamos a contar desde cero para la posición del cursor: 0, 1, 2...</span>
+<span class="linenos">15</span><span class="w">  </span><span class="n">lcd</span><span class="p">.</span><span class="nf">setCursor</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">);</span><span class="w">     </span><span class="c1">// Tercera columna de la primera fila</span>
+<span class="linenos">16</span><span class="w">  </span><span class="n">lcd</span><span class="p">.</span><span class="nf">print</span><span class="p">(</span><span class="s">&quot;APRENDEMOS&quot;</span><span class="p">);</span><span class="w"> </span><span class="c1">// Mostramos en pantalla el texto</span>
+<span class="linenos">17</span><span class="w">  </span><span class="n">lcd</span><span class="p">.</span><span class="nf">setCursor</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">);</span><span class="w">     </span><span class="c1">// Cuarta columna de la segunda fila</span>
+<span class="linenos">18</span><span class="w">  </span><span class="n">lcd</span><span class="p">.</span><span class="nf">print</span><span class="p">(</span><span class="s">&quot;TECNOLOGIA&quot;</span><span class="p">);</span><span class="w"> </span><span class="c1">// NO ES COMPATIBLE CON TILDES</span>
+<span class="linenos">19</span><span class="p">}</span>
+<span class="linenos">20</span>
+<span class="linenos">21</span><span class="kr">void</span><span class="w"> </span><span class="nb">loop</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="linenos">22</span><span class="p">}</span>
 </pre></div>
 </div>
-<section id="tarea-limpiaparabrisas">
-<h2>Tarea limpiaparabrisas<a class="headerlink" href="#tarea-limpiaparabrisas" title="Link to this heading">¶</a></h2>
-<p>Con el montaje básico de la figura anterior, programa el servo usando el
-bucle <code class="docutils literal notranslate"><span class="pre">for( )</span></code> para que haga un movimiento de vaivén como el de un
-limpiaparabrisas de un coche:</p>
-<ul class="simple">
-<li><p>Que vaya aumentando el ángulo de uno en uno desde 5º hasta 175º,
-con una espera de 8 ms entre una posición y la siguiente.</p></li>
-<li><p>Que vaya disminuyendo el ángulo de uno en uno desde 174º hasta 6º
-con una espera de 8 ms entre una posición y la siguiente.</p></li>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>Si no se ven o se ven mal los caracteres, podemos ajustar el contraste
+de la pantalla usando el potenciómetro azul de la parte de atrás.</p>
+</div>
+</section>
+<section id="decimales-de-float">
+<h2>Decimales de float<a class="headerlink" href="#decimales-de-float" title="Link to this heading">¶</a></h2>
+<p>Para elegir el número de decimales mostrado de una variable float ponemos
+una coma y el número de decimales deseado.
+Ejemplo para mostrar el valor de la variable temp con un decimal:</p>
+<div class="highlight-arduino notranslate"><div class="highlight"><pre><span></span><span class="n">lcd</span><span class="p">.</span><span class="nf">print</span><span class="p">(</span><span class="n">temp</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">);</span>
+</pre></div>
+</div>
+</section>
+<section id="caracteres-especiales">
+<h2>Caracteres especiales<a class="headerlink" href="#caracteres-especiales" title="Link to this heading">¶</a></h2>
+<ul>
+<li><p>Tenemos en cuenta que el LCD no es compatible con tildes.</p></li>
+<li><p>Para poner el símbolo º de grados, escribimos la siguiente línea:</p>
+<div class="highlight-arduino notranslate"><div class="highlight"><pre><span></span><span class="n">lcd</span><span class="p">.</span><span class="nf">print</span><span class="p">((</span><span class="kr">char</span><span class="p">)</span><span class="mi">223</span><span class="p">);</span>
+</pre></div>
+</div>
+</li>
 </ul>
-<p>Aquí tienes el programa con bloques que puedes usar como guía:</p>
-<figure class="align-center">
-<a class="reference internal image-reference" href="../_images/arduino-ft-26.png"><img alt="../_images/arduino-ft-26.png" src="../_images/arduino-ft-26.png" style="width: 480px;" />
-</a>
-</figure>
+<p>La programación básica de un corazón sería así, fíjate que los 0 y 1
+forman el dibujo del corazón:</p>
+<div class="highlight-arduino notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;Wire.h&gt;</span>
+<span class="linenos"> 2</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;LiquidCrystal_I2C.h&gt;</span>
+<span class="linenos"> 3</span>
+<span class="linenos"> 4</span><span class="n">LiquidCrystal_I2C</span><span class="w"> </span><span class="nf">lcd</span><span class="p">(</span><span class="mh">0x27</span><span class="p">,</span><span class="w"> </span><span class="mi">16</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">);</span>
+<span class="linenos"> 5</span>
+<span class="linenos"> 6</span><span class="c1">// Define el carácter personalizado del corazón</span>
+<span class="linenos"> 7</span><span class="kr">byte</span><span class="w"> </span><span class="n">heart</span><span class="p">[</span><span class="mi">8</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span>
+<span class="linenos"> 8</span><span class="w">  </span><span class="n">B00000</span><span class="p">,</span>
+<span class="linenos"> 9</span><span class="w">  </span><span class="n">B01010</span><span class="p">,</span>
+<span class="linenos">10</span><span class="w">  </span><span class="n">B11111</span><span class="p">,</span>
+<span class="linenos">11</span><span class="w">  </span><span class="n">B11111</span><span class="p">,</span>
+<span class="linenos">12</span><span class="w">  </span><span class="n">B11111</span><span class="p">,</span>
+<span class="linenos">13</span><span class="w">  </span><span class="n">B01110</span><span class="p">,</span>
+<span class="linenos">14</span><span class="w">  </span><span class="n">B00100</span><span class="p">,</span>
+<span class="linenos">15</span><span class="w">  </span><span class="n">B00000</span>
+<span class="linenos">16</span><span class="p">};</span>
+<span class="linenos">17</span>
+<span class="linenos">18</span><span class="kr">void</span><span class="w"> </span><span class="nb">setup</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="linenos">19</span><span class="w">  </span><span class="n">lcd</span><span class="p">.</span><span class="n">init</span><span class="p">();</span>
+<span class="linenos">20</span><span class="w">  </span><span class="n">lcd</span><span class="p">.</span><span class="n">backlight</span><span class="p">();</span>
+<span class="linenos">21</span>
+<span class="linenos">22</span><span class="w">  </span><span class="c1">// Cargar el carácter personalizado en la memoria del LCD:</span>
+<span class="linenos">23</span><span class="w">  </span><span class="n">lcd</span><span class="p">.</span><span class="nf">createChar</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="n">heart</span><span class="p">);</span>
+<span class="linenos">24</span>
+<span class="linenos">25</span><span class="w">  </span><span class="c1">// Limpiar la pantalla:</span>
+<span class="linenos">26</span><span class="w">  </span><span class="n">lcd</span><span class="p">.</span><span class="nf">clear</span><span class="p">();</span>
+<span class="linenos">27</span>
+<span class="linenos">28</span><span class="w">  </span><span class="c1">// Coloca el cursor en la posición (0, 0)</span>
+<span class="linenos">29</span><span class="w">  </span><span class="n">lcd</span><span class="p">.</span><span class="nf">setCursor</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">);</span>
+<span class="linenos">30</span>
+<span class="linenos">31</span><span class="w">  </span><span class="c1">// Muestra el carácter personalizado del corazón (caracter 0)</span>
+<span class="linenos">32</span><span class="w">  </span><span class="n">lcd</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+<span class="linenos">33</span><span class="p">}</span>
+<span class="linenos">34</span>
+<span class="linenos">35</span><span class="kr">void</span><span class="w"> </span><span class="nb">loop</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="linenos">36</span><span class="p">}</span>
+</pre></div>
+</div>
+<p>Para dibujar caracteres personalizados de forma más visual, hay editores
+online como el <a class="reference external" href="https://www.steamakersblocks.com/web/help/chareditor" rel="noopener noreferrer" target="_blank">editor de Arduinoblocks</a>
+que nos generan el código directamente.</p>
 </section>
 </section>
 
@@ -350,23 +437,23 @@ con una espera de 8 ms entre una posición y la siguiente.</p></li>
         
 <footer class="custom-footer">
   <div class="related-pages">
-    <a class="next-page" href="potenciometro.html">
+    <a class="next-page" href="sensor-dht11.html">
         <div class="page-info">
           <div class="context">
             <span>Siguiente</span>
           </div>
-          <div class="title"><span class="section-number">11. </span>Potenciómetro</div>
+          <div class="title"><span class="section-number">19. </span>Sensor DTH11</div>
         </div>
         <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
       </a>
-    <a class="prev-page" href="entradas-analogicas.html">
+    <a class="prev-page" href="sensor-ultrasonico.html">
         <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
         <div class="page-info">
           <div class="context">
             <span>Anterior</span>
           </div>
           
-          <div class="title"><span class="section-number">9. </span>Entradas analógicas</div>
+          <div class="title"><span class="section-number">17. </span>Sensor ultrasónico</div>
           
         </div>
       </a>
@@ -394,7 +481,7 @@ con una espera de 8 ms entre una posición y la siguiente.</p></li>
   
   
   
-  <p>Actualizado por última vez en 2026-06-22.</p>
+  <p>Actualizado por última vez en 2026-06-23.</p>
   
 
 </footer>
@@ -413,8 +500,11 @@ con una espera de 8 ms entre una posición y la siguiente.</p></li>
         <div class="toc-tree-container">
           <div class="toc-tree">
             <ul>
-<li><a class="reference internal" href="#">10. Servomotores</a><ul>
-<li><a class="reference internal" href="#tarea-limpiaparabrisas">Tarea limpiaparabrisas</a></li>
+<li><a class="reference internal" href="#">18. Pantalla LCD1602</a><ul>
+<li><a class="reference internal" href="#instalacion-de-la-biblioteca">Instalación de la biblioteca</a></li>
+<li><a class="reference internal" href="#programacion-basica">Programación básica</a></li>
+<li><a class="reference internal" href="#decimales-de-float">Decimales de float</a></li>
+<li><a class="reference internal" href="#caracteres-especiales">Caracteres especiales</a></li>
 </ul>
 </li>
 </ul>
