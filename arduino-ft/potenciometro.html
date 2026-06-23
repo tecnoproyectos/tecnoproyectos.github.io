@@ -333,11 +333,10 @@ girar su mando, aunque también las hay deslizables.</p>
 un rango a otro. Es útil para hacer equivalencias entre diferentes
 rangos. Por ejemplo para remapear una lectura analógica que está en un
 rango de 0-1023 a un nivel de salida PWM que está en un rango 0-255.</p>
-<p>Ejemplo:
-.. code-block:: arduino</p>
-<blockquote>
-<div><p>brillo = map(valorPotenciometro, 0, 1023, 0, 255);</p>
-</div></blockquote>
+<p>Ejemplo:</p>
+<div class="highlight-arduino notranslate"><div class="highlight"><pre><span></span><span class="n">brillo</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">map</span><span class="p">(</span><span class="n">valorPotenciometro</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">1023</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">255</span><span class="p">);</span>
+</pre></div>
+</div>
 <p>la variable brillo será proporcional a la entrada analógica del
 potenciómetro y se usará para establecer el nivel de brillo de un LED.</p>
 </section>
