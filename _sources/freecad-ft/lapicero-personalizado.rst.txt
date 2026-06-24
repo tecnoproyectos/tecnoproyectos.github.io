@@ -13,6 +13,10 @@ siguiente videotutorial:
 |icono-video| VÍDEO: `Lapicero con nombre personalizado con FreeCAD
 <https://www.youtube.com/watch?v=f9W0HBKh2Y8>`__
 
+
+Tarea lapicero con nombre personalizado
+---------------------------------------
+
 .. figure:: _images/freecad-ft-02.jpg
    :width: 640px
    :align: center
