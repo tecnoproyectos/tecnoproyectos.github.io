@@ -10,7 +10,7 @@
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "La función map()",
+  "headline": "5. La función map()",
   "author": {
     "@type": "Person",
     "name": "Esther Gordo"
@@ -30,11 +30,11 @@
   "dateModified": "2026-06-23T12:00:00+01:00"
 }
 </script>
-<link rel="index" title="Índice" href="../genindex.html"><link rel="search" title="Búsqueda" href="../search.html"><link rel="next" title="Color que cambia con el ratón" href="cambio-color.html"><link rel="prev" title="El ratón como entrada" href="raton-entrada.html">
+<link rel="index" title="Índice" href="../genindex.html"><link rel="search" title="Búsqueda" href="../search.html"><link rel="next" title="6. Color que cambia con el ratón" href="cambio-color.html"><link rel="prev" title="4. El ratón como entrada" href="raton-entrada.html">
         <link rel="prefetch" href="../_static/favicon.png" as="image">
 
     <link rel="shortcut icon" href="../_static/favicon.ico"><!-- Generated with Sphinx 9.1.0 and Furo 2025.12.19 -->
-        <title>La función map() - Tecno Proyectos</title>
+        <title>5. La función map() - Tecno Proyectos</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d111a655" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=7bdb33bb" />
     <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=3352dac5" />
@@ -270,14 +270,14 @@
 </ul>
 </li>
 <li class="toctree-l1 current has-children"><a class="reference internal" href="index.html">JavaScript con p5.js</a><input aria-label="Toggle navigation of JavaScript con p5.js" checked="" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="disenio-papel.html">Diseño en papel</a></li>
-<li class="toctree-l2"><a class="reference internal" href="estructura-base.html">La estructura base</a></li>
-<li class="toctree-l2"><a class="reference internal" href="primeras-formas.html">Primeras formas</a></li>
-<li class="toctree-l2"><a class="reference internal" href="raton-entrada.html">El ratón como entrada</a></li>
-<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">La función map()</a></li>
-<li class="toctree-l2"><a class="reference internal" href="cambio-color.html">Color que cambia con el ratón</a></li>
-<li class="toctree-l2"><a class="reference internal" href="componer-formas.html">Componer más de una forma</a></li>
-<li class="toctree-l2"><a class="reference internal" href="entrega.html">Entrega y reto extra</a></li>
+<li class="toctree-l2"><a class="reference internal" href="disenio-papel.html">1. Diseño en papel</a></li>
+<li class="toctree-l2"><a class="reference internal" href="estructura-base.html">2. La estructura base</a></li>
+<li class="toctree-l2"><a class="reference internal" href="primeras-formas.html">3. Primeras formas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="raton-entrada.html">4. El ratón como entrada</a></li>
+<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">5. La función map()</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cambio-color.html">6. Color que cambia con el ratón</a></li>
+<li class="toctree-l2"><a class="reference internal" href="componer-formas.html">7. Componer más de una forma</a></li>
+<li class="toctree-l2"><a class="reference internal" href="entrega.html">8. Entrega y reto extra</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../colaborar.html">Colaboración con el proyecto</a></li>
@@ -321,9 +321,9 @@
         </div>
         <article role="main" id="furo-main-content">
           <section id="la-funcion-map">
-<h1>La función map()<a class="headerlink" href="#la-funcion-map" title="Link to this heading">¶</a></h1>
+<h1><span class="section-number">5. </span>La función map()<a class="headerlink" href="#la-funcion-map" title="Link to this heading">¶</a></h1>
 <section id="concepto-map">
-<h2>Concepto: map()<a class="headerlink" href="#concepto-map" title="Link to this heading">¶</a></h2>
+<h2><span class="section-number">5.1. </span>Concepto: map()<a class="headerlink" href="#concepto-map" title="Link to this heading">¶</a></h2>
 <p><code class="docutils literal notranslate"><span class="pre">mouseX</span></code> va de 0 (izquierda) a 400 (derecha, si el lienzo mide 400 px de
 ancho). Pero el tamaño de una forma puede ir de 20 a 200, o un valor de
 color va de 0 a 255. Necesitamos traducir un rango a otro. Para eso existe
@@ -339,7 +339,7 @@ tamaño vale 200; y cualquier valor intermedio se calcula
 proporcionalmente».</p>
 </section>
 <section id="aplicalo-a-tu-codigo">
-<h2>Aplícalo a tu código<a class="headerlink" href="#aplicalo-a-tu-codigo" title="Link to this heading">¶</a></h2>
+<h2><span class="section-number">5.2. </span>Aplícalo a tu código<a class="headerlink" href="#aplicalo-a-tu-codigo" title="Link to this heading">¶</a></h2>
 <div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="kd">function</span><span class="w"> </span><span class="nx">setup</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
 <span class="w">  </span><span class="nx">createCanvas</span><span class="p">(</span><span class="mf">400</span><span class="p">,</span><span class="w"> </span><span class="mf">600</span><span class="p">);</span><span class="w"> </span><span class="c1">// ancho x alto</span>
 <span class="p">}</span>
@@ -379,7 +379,7 @@ del lienzo.</p>
           <div class="context">
             <span>Siguiente</span>
           </div>
-          <div class="title">Color que cambia con el ratón</div>
+          <div class="title"><span class="section-number">6. </span>Color que cambia con el ratón</div>
         </div>
         <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
       </a>
@@ -390,7 +390,7 @@ del lienzo.</p>
             <span>Anterior</span>
           </div>
           
-          <div class="title">El ratón como entrada</div>
+          <div class="title"><span class="section-number">4. </span>El ratón como entrada</div>
           
         </div>
       </a>
@@ -437,9 +437,9 @@ del lienzo.</p>
         <div class="toc-tree-container">
           <div class="toc-tree">
             <ul>
-<li><a class="reference internal" href="#">La función map()</a><ul>
-<li><a class="reference internal" href="#concepto-map">Concepto: map()</a></li>
-<li><a class="reference internal" href="#aplicalo-a-tu-codigo">Aplícalo a tu código</a></li>
+<li><a class="reference internal" href="#">5. La función map()</a><ul>
+<li><a class="reference internal" href="#concepto-map">5.1. Concepto: map()</a></li>
+<li><a class="reference internal" href="#aplicalo-a-tu-codigo">5.2. Aplícalo a tu código</a></li>
 </ul>
 </li>
 </ul>
