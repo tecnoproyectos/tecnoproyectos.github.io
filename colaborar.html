@@ -340,18 +340,24 @@ otro proyecto distinto.</p>
 <p>Por ejemplo imágenes o archivos pdf: arduino-ft-01.png,
 arduino-ft-guia.pdf</p>
 </li>
-<li><p>Puedes fijarte en cómo está escrito un proyecto ya existente para
-tomarlo como referencia para escribir el tuyo.</p>
-<p>Por ejemplo te puede servir de modelo el proyecto de <a class="reference external" href="https://github.com/tecnoproyectos/tecnoproyectos/tree/main/source/arduino-ft" rel="noopener noreferrer" target="_blank">Guía de Arduino</a>
-situado en la carpeta <code class="docutils literal notranslate"><span class="pre">sources/arduino-ft</span></code> del repositorio.</p>
-</li>
 <li><p>El primer archivo de contenidos dentro de la carpeta de un proyecto
-debe llamarse index.rst y debe contener una lista con todos los
+debe llamarse <strong>index.rst</strong> y debe contener una lista con todos los
 archivos de ese proyecto.</p>
 <p>No está permitido hacer subniveles. Todos los archivos del proyecto
 deben colgar del archivo principal index.rst.</p>
 <p>Si necesitas separar proyectos, será necesario crear un proyecto nuevo
 con un nuevo nombre.</p>
+</li>
+<li><p>Los diferentes archivos de reStructuredText (*.rst) de un proyecto
+deben nombrarse con palabras separadas por guiones altos que describan
+lo mejor posible el contenido del archivo.
+Se puede utilizar desde una palabra hasta tres palabras como máximo.</p>
+<p>Ejemplos: pantalla-lcd.rst, entradas-analogicas.rst, disenio-papel.rst</p>
+<p>No utilices tildes, eñes o diéresis ya que eso crearía problemas con
+las páginas html generadas. La letra “ñ” se puede sustituir por las
+letras “ni” y las tildes y diéresis no se ponen.</p>
+<p>Intenta no numerar los archivos, porque las numeraciones se desordenan
+al añadir contenido o al reordenar el contenido existente.</p>
 </li>
 <li><p>La codificación de los archivos rst deberá ser UTF-8 con BOM para que
 pueda soportar la edición de caracteres internacionales.</p>
@@ -380,8 +386,35 @@ proyecto y las imágenes en el subdirectorio _images.</p>
 proyecto y poder ver todos los archivos a la vez sin tener que navegar
 por subdirectorios.</p>
 </li>
-<li><p>Las imágenes no deben tener un tamaño mayor de 500 kilobytes.
-Si hay imágenes de gran tamaño se recomienda crear un repositorio nuevo
+<li><p>Puedes fijarte en cómo está escrito un proyecto ya existente para
+tomarlo como referencia para escribir el tuyo.</p>
+<p>Por ejemplo te puede servir de modelo el proyecto de <a class="reference external" href="https://github.com/tecnoproyectos/tecnoproyectos/tree/main/source/arduino-ft" rel="noopener noreferrer" target="_blank">Guía de Arduino</a>
+situado en la carpeta <code class="docutils literal notranslate"><span class="pre">sources/arduino-ft</span></code> del repositorio.</p>
+</li>
+</ol>
+</section>
+<section id="fotografias-e-imagenes">
+<h2>Fotografías e imágenes<a class="headerlink" href="#fotografias-e-imagenes" title="Link to this heading">¶</a></h2>
+<ol class="arabic">
+<li><p>Se recomienda utilizar solo dos formatos de imagen:</p>
+<ul class="simple">
+<li><p><strong>JPG</strong>: para fotografías o imágenes con degradados y multitud de
+colores.</p></li>
+<li><p><strong>PNG</strong>: para el resto de imágenes como capturas de pantalla, gráficos
+imágenes prediseñadas, capturas de texto, etc.</p></li>
+</ul>
+<p>Ante la duda, lo mejor es guardar la imagen en <strong>formato PNG</strong>, puesto
+que este formato no pierde calidad y se puede convertir fácilmente a JPG
+posteriormente, mientras que las imágenes JPG pierden calidad y no
+pueden convertirse posteriormente a PNG porque ocupan un tamaño
+excesivo.</p>
+</li>
+<li><p>El tamaño de las imágenes debe ser suficientemente grande como para que
+la imagen no pierda detalles, pero no innecesariamente grande para que
+el archivo no ocupe un tamaño excesivo.</p></li>
+<li><p>Los archivos de fotografías e imágenes no deben tener un tamaño mayor
+de 500 kilobytes.</p>
+<p>Si hay imágenes de gran tamaño se recomienda crear un repositorio nuevo
 en GitHub para almacenarlas.
 Después se copiarán solo las imágenes imprescindibles en formato de
 tamaño y calidad reducidas en el proyecto para que el tamaño total de
@@ -406,6 +439,29 @@ línea de comandos para Windows:</p>
 </pre></div>
 </div>
 </li>
+</ol>
+</section>
+<section id="ciclo-de-trabajo-con-github">
+<h2>Ciclo de trabajo con GitHub<a class="headerlink" href="#ciclo-de-trabajo-con-github" title="Link to this heading">¶</a></h2>
+<p>Los pasos a seguir para poder aportar contenidos utilizando la plataforma
+GitHub son los siguientes:</p>
+<ol class="arabic">
+<li><p>Crear una cuenta personal en GitHub</p></li>
+<li><p>Clonar en la cuenta personal todo el proyecto de Tecno Proyectos
+desde esta dirección:</p>
+<p><a class="reference external" href="https://github.com/tecnoproyectos/tecnoproyectos" rel="noopener noreferrer" target="_blank">https://github.com/tecnoproyectos/tecnoproyectos</a></p>
+</li>
+<li><p>Asegurarse de que el proyecto personal está sincronizado con el botón
+<code class="docutils literal notranslate"><span class="pre">Sync</span> <span class="pre">fork</span></code> para que recibamos en el repositorio propio todos los
+últimos cambios que se hayan producido en el proyecto principal.</p></li>
+<li><p>Realizar los cambios en un subdirectorio propio, dentro del directorio
+source.</p>
+<p>Por ejemplo: añadir un archivo en /source/freecad-ft</p>
+</li>
+<li><p>Abrir un pull-request con el botón <code class="docutils literal notranslate"><span class="pre">Contribute</span></code> y clicando
+<code class="docutils literal notranslate"><span class="pre">Open</span> <span class="pre">pull</span> <span class="pre">request</span></code> para enviar los cambios realizados al
+proyecto principal.</p></li>
+<li><p>Volver al punto 3 y repetir el proceso.</p></li>
 </ol>
 </section>
 </section>
@@ -481,6 +537,8 @@ línea de comandos para Windows:</p>
             <ul>
 <li><a class="reference internal" href="#">Colaboración con el proyecto</a><ul>
 <li><a class="reference internal" href="#normas-de-edicion">Normas de edición</a></li>
+<li><a class="reference internal" href="#fotografias-e-imagenes">Fotografías e imágenes</a></li>
+<li><a class="reference internal" href="#ciclo-de-trabajo-con-github">Ciclo de trabajo con GitHub</a></li>
 </ul>
 </li>
 </ul>
