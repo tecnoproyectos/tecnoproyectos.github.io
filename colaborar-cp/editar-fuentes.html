@@ -206,7 +206,7 @@
           <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
         </button>
       </div>
-      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
         <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
       </label>
     </div>
@@ -273,7 +273,7 @@
               <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
             </button>
           </div>
-          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
             <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
           </label>
         </div>
@@ -284,31 +284,38 @@
 el lenguaje reStructuredText.
 Puedes aprender a utilizar este lenguaje de marcado con
 la <a class="reference internal" href="restructuredtext.html#restructuredtext"><span class="std std-ref">página de ejemplo de reStructuredText</span></a>.</p>
-<ol class="arabic">
-<li><p>Todos los archivos de un proyecto deben estar contenidos en una carpeta
+<section id="carpeta-de-proyecto">
+<h2>Carpeta de proyecto<a class="headerlink" href="#carpeta-de-proyecto" title="Link to this heading">¶</a></h2>
+<p>Todos los archivos de un proyecto deben estar contenidos en una carpeta
 con nombre del proyecto y las iniciales del creador.</p>
 <p>Por ejemplo: arduino-ft, scratch-cpm, puente-fam</p>
 <p>Si tienes dudas, contacta con el administrador de la web para que
 te asigne un directorio en el que comenzar a añadir contenidos.</p>
-</li>
-<li><p>Todas las imágenes y archivos descargables deben empezar por el mismo
+</section>
+<section id="imagenes-y-documentos">
+<h2>Imágenes y documentos<a class="headerlink" href="#imagenes-y-documentos" title="Link to this heading">¶</a></h2>
+<p>Todas las imágenes y archivos descargables deben empezar por el mismo
 nombre de la carpeta en el que están contenidas. De esta forma ningún
 archivo de todo el proyecto tendrá un nombre coincidente con el de
 otro proyecto distinto.</p>
-<p>Por ejemplo imágenes o archivos pdf: arduino-ft-01.png,
-arduino-ft-guia.pdf</p>
-</li>
-<li><p>El primer archivo de contenidos dentro de la carpeta de un proyecto
+<p>Por ejemplo imágenes o archivos pdf: arduino-ft-01.png, arduino-ft-guia.pdf</p>
+</section>
+<section id="pagina-de-indice">
+<h2>Página de índice<a class="headerlink" href="#pagina-de-indice" title="Link to this heading">¶</a></h2>
+<p>El primer archivo de contenidos dentro de la carpeta de un proyecto
 debe llamarse <strong>index.rst</strong> y debe contener una lista con todos los
 archivos de ese proyecto.</p>
 <p>No está permitido hacer subniveles. Todos los archivos del proyecto
 deben colgar del archivo principal index.rst.</p>
 <p>Si necesitas separar proyectos, será necesario crear un proyecto nuevo
 con un nuevo nombre.</p>
-</li>
-<li><p>Los diferentes archivos de reStructuredText (*.rst) de un proyecto
-deben nombrarse con palabras separadas por guiones altos que describan
-lo mejor posible el contenido del archivo.
+</section>
+<section id="nombre-de-las-paginas">
+<h2>Nombre de las páginas<a class="headerlink" href="#nombre-de-las-paginas" title="Link to this heading">¶</a></h2>
+<p>Los diferentes archivos de reStructuredText (*.rst) de un proyecto,
+que luego se convertirán en una página web, deben nombrarse con palabras
+separadas por guiones altos que describan lo mejor posible el contenido
+del archivo.
 Se puede utilizar desde una palabra hasta tres palabras como máximo.</p>
 <p>Ejemplos: pantalla-lcd.rst, entradas-analogicas.rst, disenio-papel.rst</p>
 <p>No utilices tildes, eñes o diéresis ya que eso crearía problemas con
@@ -316,13 +323,17 @@ las páginas html generadas. La letra “ñ” se puede sustituir por las
 letras “ni” y las tildes y diéresis no se ponen.</p>
 <p>Intenta no numerar los archivos, porque las numeraciones se desordenan
 al añadir contenido o al reordenar el contenido existente.</p>
-</li>
-<li><p>La codificación de los archivos rst deberá ser UTF-8 con BOM para que
-pueda soportar la edición de caracteres internacionales.</p>
+</section>
+<section id="codificacion-de-los-archivos">
+<h2>Codificación de los archivos<a class="headerlink" href="#codificacion-de-los-archivos" title="Link to this heading">¶</a></h2>
+<p>La codificación de los archivos de texto *.rst deberá ser UTF-8
+con BOM para que pueda soportar la edición de caracteres internacionales.</p>
 <p>Se pueden utilizar emojis en el texto, pero al traducir la página web a
 formato PDF, la mayoría se perderán.</p>
-</li>
-<li><p>Es necesario añadir metadatos en la cabecera para indicar quién es el
+</section>
+<section id="metadatos">
+<h2>Metadatos<a class="headerlink" href="#metadatos" title="Link to this heading">¶</a></h2>
+<p>Es necesario añadir metadatos en la cabecera para indicar quién es el
 autor del proyecto y qué licencia usa.
 Para dar coherencia a todo el sitio web y permitir la utilización de
 imágenes de Wikimedia y de herramientas como Fritzing, se recomienda
@@ -336,20 +347,32 @@ Attribution-ShareAlike 4.0.</p>
 <span class="p">:</span><span class="n">license_url</span><span class="p">:</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">creativecommons</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="n">licenses</span><span class="o">/</span><span class="n">by</span><span class="o">-</span><span class="n">sa</span><span class="o">/</span><span class="mf">4.0</span><span class="o">/</span>
 </pre></div>
 </div>
-</li>
-<li><p>Se recomienda mantener todos los archivos rst en el directorio raíz del
+</section>
+<section id="subdirectorios">
+<h2>Subdirectorios<a class="headerlink" href="#subdirectorios" title="Link to this heading">¶</a></h2>
+<p>Se recomienda mantener todos los archivos rst en el directorio raíz del
 proyecto y las imágenes en el subdirectorio _images.</p>
-<p>Se puede crear otro directorio más para las descargas: _downloads</p>
+<p>Se puede crear otro subdirectorio más para las descargas: _downloads</p>
 <p>Se recomienda no crear más subdirectorios para mantener limpio el
 proyecto y poder ver todos los archivos a la vez sin tener que navegar
 por subdirectorios.</p>
-</li>
-<li><p>Puedes fijarte en cómo está escrito un proyecto ya existente para
+</section>
+<section id="extension-de-pagina">
+<h2>Extensión de página<a class="headerlink" href="#extension-de-pagina" title="Link to this heading">¶</a></h2>
+<p>Cada página de contenidos debería tener una extensión tal, que se pueda
+estudiar y realizar sus ejercicios en una sesión de clase.</p>
+<p>Si es necesario separar contenidos para diferenciarlos (por ejemplo
+separar circuitos en serie de circuitos en paralelo) lo ideal es que
+cada página contenga sus propios ejercicios y tareas y que se puedan
+hacer como mucho tres páginas por sesión de clase.</p>
+</section>
+<section id="ejemplos">
+<h2>Ejemplos<a class="headerlink" href="#ejemplos" title="Link to this heading">¶</a></h2>
+<p>Puedes fijarte en cómo está escrito un proyecto ya existente para
 tomarlo como referencia para escribir el tuyo.</p>
 <p>Por ejemplo te puede servir de modelo el proyecto de <a class="reference external" href="https://github.com/tecnoproyectos/tecnoproyectos/tree/main/source/arduino-ft" rel="noopener noreferrer" target="_blank">Guía de Arduino</a>
 situado en la carpeta <code class="docutils literal notranslate"><span class="pre">sources/arduino-ft</span></code> del repositorio.</p>
-</li>
-</ol>
+</section>
 </section>
 
         </article>
@@ -409,8 +432,35 @@ situado en la carpeta <code class="docutils literal notranslate"><span class="pr
 
       </footer>
     </div>
-    <aside class="toc-drawer no-toc">
+    <aside class="toc-drawer">
       
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">2. Normas de edición</a><ul>
+<li><a class="reference internal" href="#carpeta-de-proyecto">Carpeta de proyecto</a></li>
+<li><a class="reference internal" href="#imagenes-y-documentos">Imágenes y documentos</a></li>
+<li><a class="reference internal" href="#pagina-de-indice">Página de índice</a></li>
+<li><a class="reference internal" href="#nombre-de-las-paginas">Nombre de las páginas</a></li>
+<li><a class="reference internal" href="#codificacion-de-los-archivos">Codificación de los archivos</a></li>
+<li><a class="reference internal" href="#metadatos">Metadatos</a></li>
+<li><a class="reference internal" href="#subdirectorios">Subdirectorios</a></li>
+<li><a class="reference internal" href="#extension-de-pagina">Extensión de página</a></li>
+<li><a class="reference internal" href="#ejemplos">Ejemplos</a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
       
       
     </aside>
