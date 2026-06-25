@@ -67,6 +67,7 @@ Herramientas en Windows
   abrir la linea de comandos cmd y escribir las siguientes líneas:
   
   ``set PATH="c:/Archivos de programa/Python314/";%PATH%``
+  
   ``python.exe -m pip install sphinx``
 
 * **Furo**: es el tema de Sphinx. Sirve para definir el estilo de la página
@@ -75,6 +76,7 @@ Herramientas en Windows
   abrir la linea de comandos cmd y escribir las siguientes líneas:
   
   ``set PATH="c:/Archivos de programa/Python314/";%PATH%``
+  
   ``python.exe -m pip install furo``
 
 
