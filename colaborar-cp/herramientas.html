@@ -325,24 +325,32 @@ del proyecto a mano cuando sea necesario.</p>
 <p>Instalar para todos los usuarios en el directorio
 c:/Archivos de programa/Python314</p>
 </li>
-<li><p><strong>Sphinx</strong>: generador de documentación que compila los ficheros fuente
-para convertirlos en html estático, epub o pdf.</p>
-<p>abrir la linea de comandos cmd y escribir las siguientes líneas:</p>
-<p><code class="docutils literal notranslate"><span class="pre">set</span> <span class="pre">PATH=&quot;c:/Archivos</span> <span class="pre">de</span> <span class="pre">programa/Python314/&quot;;%PATH%</span></code></p>
-<p><code class="docutils literal notranslate"><span class="pre">python.exe</span> <span class="pre">-m</span> <span class="pre">pip</span> <span class="pre">install</span> <span class="pre">sphinx</span></code></p>
-</li>
-<li><p><strong>Furo</strong>: es el tema de Sphinx. Sirve para definir el estilo de la página
-web (tipos de letra, tamaños, separaciones entre elementos, etc.)</p>
-<p>abrir la linea de comandos cmd y escribir las siguientes líneas:</p>
-<p><code class="docutils literal notranslate"><span class="pre">set</span> <span class="pre">PATH=&quot;c:/Archivos</span> <span class="pre">de</span> <span class="pre">programa/Python314/&quot;;%PATH%</span></code></p>
-<p><code class="docutils literal notranslate"><span class="pre">python.exe</span> <span class="pre">-m</span> <span class="pre">pip</span> <span class="pre">install</span> <span class="pre">furo</span></code></p>
-</li>
 <li><p><strong>Cygwin</strong>: paquete que emula en Windows el comportamiento de Linux
-y añade herramientas Unix como make o bash.</p>
+y añade herramientas Unix como make o bash, necesarias para compilar.</p>
 <p>Descarga el archivo de instalación para Windows:
 <a class="reference external" href="https://www.cygwin.com/install.html" rel="noopener noreferrer" target="_blank">https://www.cygwin.com/install.html</a></p>
 <p>Instala el programa, añadiendo el paquete make, que no viene añadido
 por defecto.</p>
+</li>
+<li><p><strong>Entorno virtual de Python</strong>: Es el entorno local de herramientas de
+Python.</p>
+<p>Comenzamos por borrar el directorio venv actual.</p>
+<p>Ejecutamos las siguientes instrucciones desde la consola de comandos:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>``set PATH=&quot;c:/Archivos de programa/Python314/&quot;;%PATH%``
+
+``python.exe -m venv venv``
+</pre></div>
+</div>
+</li>
+<li><p><strong>Sphinx</strong>: generador de documentación que compila los ficheros fuente
+para convertirlos en html estático, epub o pdf.</p>
+<p>Abrimos la linea de comandos ejecutando <code class="docutils literal notranslate"><span class="pre">_bash.bat</span></code> y escribimos:</p>
+<p><code class="docutils literal notranslate"><span class="pre">python.exe</span> <span class="pre">-m</span> <span class="pre">pip</span> <span class="pre">install</span> <span class="pre">sphinx</span></code></p>
+</li>
+<li><p><strong>Furo</strong>: es el tema de Sphinx. Sirve para definir el estilo de la página
+web (tipos de letra, tamaños, separaciones entre elementos, etc.)</p>
+<p>Abrimos la linea de comandos ejecutando <code class="docutils literal notranslate"><span class="pre">_bash.bat</span></code> y escribimos:</p>
+<p><code class="docutils literal notranslate"><span class="pre">python.exe</span> <span class="pre">-m</span> <span class="pre">pip</span> <span class="pre">install</span> <span class="pre">furo</span></code></p>
 </li>
 <li><p><strong>MikTeX</strong>: paquete del lenguaje LaTeX para generación de fórmulas
 con Sphinx.</p>
@@ -350,10 +358,6 @@ con Sphinx.</p>
 <a class="reference external" href="https://miktex.org/download" rel="noopener noreferrer" target="_blank">https://miktex.org/download</a></p>
 <p>Renombra el archivo de instalación a miktex-portable.exe</p>
 <p>Instala el archivo en el directorio C:/Bin/miktex</p>
-</li>
-<li><p><strong>Git</strong>: gestor de versiones. Es la herramienta de control de revisiones
-de Linux y la que trabaja por debajo del servicio GitHub.</p>
-<p><a class="reference external" href="https://git-scm.com/install/windows" rel="noopener noreferrer" target="_blank">https://git-scm.com/install/windows</a></p>
 </li>
 </ul>
 </section>
