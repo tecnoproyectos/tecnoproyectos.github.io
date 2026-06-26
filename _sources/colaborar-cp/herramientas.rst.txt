@@ -52,7 +52,6 @@ distribución Debian y sus distribuciones derivadas (Ubuntu, MAX, etc).
   ``sudo apt install imagemagick``
 
 
-
 Herramientas en Windows
 -----------------------
 
