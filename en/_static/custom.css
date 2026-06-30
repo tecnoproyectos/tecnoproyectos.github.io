@@ -1,0 +1,128 @@
+:root {
+  --font-size--normal: 18px; 
+  --font-size--small: 85%;
+  --font-size--small--2: 85%;
+}
+html {font-size: 18px !important; }
+h1 { font-size: 2.2rem !important; }
+h2 { font-size: 1.8rem !important; margin-top: 4rem !important; }
+h3 { font-size: 1.4rem !important; margin-top: 4rem !important; }
+.admonition .admonition-content {font-size: var(--font-size--normal) !important;}
+html body .admonition {font-size: var(--font-size--normal) !important;}
+html body .admonition .admonition-content, html body .admonition p {
+font-size: var(--font-size--normal) !important;
+}
+html body .admonition .admonition-title {
+font-size: var(--font-size--normal) !important;
+}
+
+caption .caption-number::after, figcaption .caption-number::after {
+content:": " !important;
+}
+
+
+.table-wrapper {
+width:max-content !important;
+max-width:100% !important;
+margin-left:auto !important;
+margin-right:auto !important;
+display:block;
+}
+
+.table-wrapper table.docutils {
+width:auto !important;
+margin:0 !important;
+}
+
+/* list of links in footer */
+ul.link-list {
+padding:0 0 12px 0;
+margin:0;
+list-style:none;
+}
+
+ul.link-list li {
+display: inline-block;
+padding: 0 0 0 4px;
+margin: 4px 0;
+border-left: 1px solid;
+}
+
+ul.link-list li a {
+padding: 4px;
+}
+
+.link-list li:first-child {
+border-left: none;
+padding-left: 0;
+}
+
+.custom-footer {
+padding-bottom: 32px;
+font-size: var(--font-size--normal);
+}
+
+.custom-footer hr, hr {
+display: block !important;
+border: 0 !important;
+border-top: 1px solid #ccc !important;
+margin: 36px 0 24px 0 !important;
+width: 100% !important;
+height: 1px !important;
+}
+
+.sidebar-brand img {
+max-width: 48px;
+height: auto;
+}
+
+.brand-container {
+display: flex;
+align-items: center;
+gap: 12px;
+text-decoration: none;
+}
+.brand-logo {height: 24px; width: auto;}
+
+
+
+.rubric {margin-top: 3rem;}
+
+.footnote-reference {font-size: var(--font-size--small);}
+
+.field-list dt, .option-list dt, dl.footnote dt, dl.glossary dt,
+dl.simple dt, dl:not([class]) dt {font-weight:600; margin-top: 1rem;}
+
+
+article .align-default {
+text-align: left !important;
+}
+div.figure,
+figure.align-default, 
+img.align-default {
+display:block;
+margin-left: 0;
+margin-right: auto;
+margin-bottom: 1rem;
+}
+
+.external-app {
+position: relative;
+max-width: 800px;
+width:100%;
+margin: 24px auto;
+padding-bottom: 60%;
+padding-top: 24px;
+height: 0;
+overflow: hidden;
+border: 1px solid #eee;
+}
+
+.external-app iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+border: 0;
+}
