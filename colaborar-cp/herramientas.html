@@ -329,9 +329,14 @@ c:/Archivos de programa/Python314</p>
 </li>
 <li><p><strong>Entorno virtual de Python</strong>: Es el entorno local de herramientas de
 Python.</p>
-<p>Comenzamos por borrar el directorio venv actual.</p>
-<p>Ejecutamos las siguientes instrucciones desde la consola de comandos:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nb">set</span> <span class="n">PATH</span><span class="o">=</span><span class="s2">&quot;c:/Archivos de programa/Python314/&quot;</span><span class="p">;</span><span class="o">%</span><span class="n">PATH</span><span class="o">%</span>
+<p>A continuación ejecutamos las siguientes instrucciones desde la
+consola de comandos (ejecutando <code class="docutils literal notranslate"><span class="pre">_bash.bat</span></code> en el directorio del
+repositorio tecnoproyectos) para borrar el directorio <code class="docutils literal notranslate"><span class="pre">venv</span></code> actual
+y crear uno nuevo:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">rmdir</span> <span class="o">/</span><span class="n">s</span> <span class="o">/</span><span class="n">q</span> <span class="n">venv</span>
+
+<span class="nb">set</span> <span class="n">PATH</span><span class="o">=</span><span class="s2">&quot;c:/Archivos de programa/Python314/&quot;</span><span class="p">;</span><span class="o">%</span><span class="n">PATH</span><span class="o">%</span>
+
 <span class="n">python</span><span class="o">.</span><span class="n">exe</span> <span class="o">-</span><span class="n">m</span> <span class="n">venv</span> <span class="n">venv</span>
 </pre></div>
 </div>
