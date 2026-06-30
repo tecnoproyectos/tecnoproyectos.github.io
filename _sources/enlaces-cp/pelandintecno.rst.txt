@@ -13,8 +13,9 @@
 es uno de los blogs de referencia de Tecnología
 en Educación Secundaria.
 En esta página aparecen las distintas entradas que se pueden
-encontrar en el blog, clasificadas y ordenadas por fecha más
-reciente.
+encontrar en el blog, clasificadas por temas y ordenadas por
+fecha más reciente.
+
 
 Dibujo
 ------
