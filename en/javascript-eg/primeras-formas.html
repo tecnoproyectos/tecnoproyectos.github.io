@@ -312,19 +312,9 @@ superior izquierda (x, y)</p></li>
 <section id="anadir-una-forma-estatica">
 <h2>Añadir una forma estática<a class="headerlink" href="#anadir-una-forma-estatica" title="Link to this heading">¶</a></h2>
 <p>Añade esto dentro de <code class="docutils literal notranslate"><span class="pre">draw()</span></code>, después de <code class="docutils literal notranslate"><span class="pre">background()</span></code>:</p>
-<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="kd">function</span><span class="w"> </span><span class="nx">setup</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
-<span class="w">  </span><span class="nx">createCanvas</span><span class="p">(</span><span class="mf">400</span><span class="p">,</span><span class="w"> </span><span class="mf">600</span><span class="p">);</span><span class="w"> </span><span class="c1">// ancho x alto</span>
-<span class="p">}</span>
-
-<span class="kd">function</span><span class="w"> </span><span class="nx">draw</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
-<span class="w">  </span><span class="nx">background</span><span class="p">(</span><span class="mf">220</span><span class="p">);</span>
-
-<span class="w">  </span><span class="nx">fill</span><span class="p">(</span><span class="mf">255</span><span class="p">,</span><span class="w"> </span><span class="mf">100</span><span class="p">,</span><span class="w"> </span><span class="mf">50</span><span class="p">);</span><span class="w"> </span><span class="c1">// naranja en RGB</span>
-<span class="w">  </span><span class="nx">noStroke</span><span class="p">();</span><span class="w">         </span><span class="c1">// sin borde</span>
-<span class="w">  </span><span class="nx">ellipse</span><span class="p">(</span><span class="mf">300</span><span class="p">,</span><span class="w"> </span><span class="mf">200</span><span class="p">,</span><span class="w"> </span><span class="mf">100</span><span class="p">,</span><span class="w"> </span><span class="mf">100</span><span class="p">);</span><span class="w"> </span><span class="c1">// elipse con dos radios iguales = círculo</span>
-<span class="p">}</span>
-</pre></div>
-</div>
+<figure class="align-default">
+<img alt="../_images/javascript-eg-31.png" src="../_images/javascript-eg-31.png" />
+</figure>
 <p>Cambia los tres números de <code class="docutils literal notranslate"><span class="pre">fill()</span></code> para explorar distintos colores. Cada
 número va de 0 a 255 y representa Rojo, Verde y Azul respectivamente.</p>
 <div class="admonition-truco-para-encontrar-colores-rgb admonition">

@@ -290,15 +290,9 @@
 <h2>El bucle de dibujo<a class="headerlink" href="#el-bucle-de-dibujo" title="Link to this heading">¶</a></h2>
 <p>Todo programa en p5.js tiene dos funciones principales que ya estarán
 escritas cuando abras el <a class="reference external" href="https://editor.p5js.org/" rel="noopener noreferrer" target="_blank">editor p5js</a>:</p>
-<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="kd">function</span><span class="w"> </span><span class="nx">setup</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
-<span class="w">  </span><span class="c1">// se ejecuta UNA SOLA VEZ al inicio del programa</span>
-<span class="p">}</span>
-
-<span class="kd">function</span><span class="w"> </span><span class="nx">draw</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
-<span class="w">  </span><span class="c1">// se ejecuta CONTINUAMENTE, muchas veces por segundo</span>
-<span class="p">}</span>
-</pre></div>
-</div>
+<figure class="align-default">
+<img alt="../_images/javascript-eg-21.png" src="../_images/javascript-eg-21.png" />
+</figure>
 <p>Puedes imaginarlo como una película de dibujos animados: <code class="docutils literal notranslate"><span class="pre">setup()</span></code>
 prepara el estudio de animación, y <code class="docutils literal notranslate"><span class="pre">draw()</span></code> dibuja cada fotograma,
 uno tras otro, muy rápido. Por defecto p5.js dibuja unos 60 fotogramas
@@ -308,15 +302,9 @@ por segundo.</p>
 <h2>Tu primer lienzo<a class="headerlink" href="#tu-primer-lienzo" title="Link to this heading">¶</a></h2>
 <p>Dentro de <code class="docutils literal notranslate"><span class="pre">setup()</span></code> vamos a crear el lienzo con <code class="docutils literal notranslate"><span class="pre">createCanvas()</span></code>. Los
 dos números son el ancho y el alto en píxeles:</p>
-<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="kd">function</span><span class="w"> </span><span class="nx">setup</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
-<span class="w">  </span><span class="nx">createCanvas</span><span class="p">(</span><span class="mf">400</span><span class="p">,</span><span class="w"> </span><span class="mf">600</span><span class="p">);</span><span class="w"> </span><span class="c1">// ancho x alto</span>
-<span class="p">}</span>
-
-<span class="kd">function</span><span class="w"> </span><span class="nx">draw</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
-<span class="w">  </span><span class="nx">background</span><span class="p">(</span><span class="mf">220</span><span class="p">);</span><span class="w"> </span><span class="c1">// fondo gris claro</span>
-<span class="p">}</span>
-</pre></div>
-</div>
+<figure class="align-default">
+<img alt="../_images/javascript-eg-22.png" src="../_images/javascript-eg-22.png" />
+</figure>
 <p>Escribe esto en el <a class="reference external" href="https://editor.p5js.org/" rel="noopener noreferrer" target="_blank">editor p5js</a> y pulsa el
 botón ▶ (Play). Deberías ver un rectángulo gris.
 Si lo ves, ¡todo funciona correctamente!</p>
