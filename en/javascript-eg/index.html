@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta property="article:published_time" content="2026-06-23T12:00:00+01:00" />
-<meta property="article:modified_time" content="2026-06-23T12:00:00+01:00" />
+<meta property="article:modified_time" content="2026-06-28T12:00:00+01:00" />
 
 <script type="application/ld+json">
 {
@@ -27,7 +27,7 @@
   "mainEntityOfPage": "https://tecnoproyectos.github.io/javascript-eg/index.html",
   "license": "https://creativecommons.org/licenses/by-sa/4.0/",
   "datePublished": "2026-06-23T12:00:00+01:00",
-  "dateModified": "2026-06-23T12:00:00+01:00"
+  "dateModified": "2026-06-28T12:00:00+01:00"
 }
 </script>
 <link rel="author" title="About these documents" href="../about.html"><link rel="index" title="Index" href="../genindex.html"><link rel="search" title="Search" href="../search.html"><link rel="next" title="1. Diseño en papel" href="disenio-papel.html"><link rel="prev" title="17. Plano de una vivienda" href="../freecad-ft/plano-vivienda.html">
@@ -233,13 +233,22 @@
 <li class="toctree-l1"><a class="reference internal" href="../freecad-ft/index.html">Guía FreeCAD</a></li>
 <li class="toctree-l1 current has-children current-page"><a class="current reference internal" href="#">JavaScript con p5.js</a><input aria-label="Toggle navigation of JavaScript con p5.js" checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="disenio-papel.html">1. Diseño en papel</a></li>
-<li class="toctree-l2"><a class="reference internal" href="estructura-base.html">2. La estructura base</a></li>
-<li class="toctree-l2"><a class="reference internal" href="primeras-formas.html">3. Primeras formas</a></li>
-<li class="toctree-l2"><a class="reference internal" href="raton-entrada.html">4. El ratón como entrada</a></li>
+<li class="toctree-l2"><a class="reference internal" href="estructura-base.html">2. Esctructura: setup() y draw()</a></li>
+<li class="toctree-l2"><a class="reference internal" href="primeras-formas.html">3. Formas en 2D</a></li>
+<li class="toctree-l2"><a class="reference internal" href="raton-entrada.html">4. Interacción: mouseX y mouseY</a></li>
 <li class="toctree-l2"><a class="reference internal" href="funcion-map.html">5. La función map()</a></li>
-<li class="toctree-l2"><a class="reference internal" href="cambio-color.html">6. Color que cambia con el ratón</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cambio-color.html">6. Modos de color: RGB y HSB</a></li>
 <li class="toctree-l2"><a class="reference internal" href="componer-formas.html">7. Componer más de una forma</a></li>
 <li class="toctree-l2"><a class="reference internal" href="entrega.html">8. Entrega y reto extra</a></li>
+<li class="toctree-l2"><a class="reference internal" href="particula-rebotando.html">9. Partícula rebotando: variables, random() e if</a></li>
+<li class="toctree-l2"><a class="reference internal" href="varias-particulas.html">10. Varias partículas rebotando: arrays y for</a></li>
+<li class="toctree-l2"><a class="reference internal" href="conectar-particulas.html">11. Conectamos partículas: dist() y for anidado</a></li>
+<li class="toctree-l2"><a class="reference internal" href="particulas-entrega.html">12. Hazlo tuyo y entrega</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cohete-objeto.html">13. Cohete: objeto literal</a></li>
+<li class="toctree-l2"><a class="reference internal" href="explosion-destello.html">14. Explosión en destello: variable booleana</a></li>
+<li class="toctree-l2"><a class="reference internal" href="explosion-chispas.html">15. Explosión con chispas: push() y splice()</a></li>
+<li class="toctree-l2"><a class="reference internal" href="fuegos-artificiales.html">16. Fuegos artificiales: mousePressed() y funciones auxiliares</a></li>
+<li class="toctree-l2"><a class="reference internal" href="fuegos-entrega.html">17. Hazlo tuyo: fuegos artificiales</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../colaborar-cp/index.html">Cómo colaborar</a></li>
@@ -285,29 +294,39 @@
         <article role="main" id="furo-main-content">
           <section id="javascript-con-p5-js">
 <h1>JavaScript con p5.js<a class="headerlink" href="#javascript-con-p5-js" title="Link to this heading">¶</a></h1>
-<p>La librería p5.js es un conjunto de funciones para el lenguaje JavaScript
-pensada para crear arte generativo e interactivo en el navegador web.
-En este proyecto encontrarás una serie de prácticas guiadas, paso a paso,
-para aprender a programar con p5.js creando composiciones visuales
-que reaccionan al ratón y al teclado.</p>
+<p>p5.js es una librería de JavaScript pensada para crear arte generativo e
+interactivo en el navegador. En este proyecto encontrarás una serie de
+prácticas guiadas, paso a paso, para aprender a programar con p5.js creando
+composiciones visuales que reaccionan al ratón y al teclado.</p>
 <div class="toctree-wrapper compound">
 <p class="caption" role="heading"><span class="caption-text">Prácticas con p5.js</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="disenio-papel.html">1. Diseño en papel</a></li>
-<li class="toctree-l1"><a class="reference internal" href="estructura-base.html">2. La estructura base</a></li>
-<li class="toctree-l1"><a class="reference internal" href="primeras-formas.html">3. Primeras formas</a></li>
-<li class="toctree-l1"><a class="reference internal" href="raton-entrada.html">4. El ratón como entrada</a></li>
+<li class="toctree-l1"><a class="reference internal" href="estructura-base.html">2. Esctructura: setup() y draw()</a></li>
+<li class="toctree-l1"><a class="reference internal" href="primeras-formas.html">3. Formas en 2D</a></li>
+<li class="toctree-l1"><a class="reference internal" href="raton-entrada.html">4. Interacción: mouseX y mouseY</a></li>
 <li class="toctree-l1"><a class="reference internal" href="funcion-map.html">5. La función map()</a></li>
-<li class="toctree-l1"><a class="reference internal" href="cambio-color.html">6. Color que cambia con el ratón</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cambio-color.html">6. Modos de color: RGB y HSB</a></li>
 <li class="toctree-l1"><a class="reference internal" href="componer-formas.html">7. Componer más de una forma</a></li>
 <li class="toctree-l1"><a class="reference internal" href="entrega.html">8. Entrega y reto extra</a></li>
+<li class="toctree-l1"><a class="reference internal" href="particula-rebotando.html">9. Partícula rebotando: variables, random() e if</a></li>
+<li class="toctree-l1"><a class="reference internal" href="varias-particulas.html">10. Varias partículas rebotando: arrays y for</a></li>
+<li class="toctree-l1"><a class="reference internal" href="conectar-particulas.html">11. Conectamos partículas: dist() y for anidado</a></li>
+<li class="toctree-l1"><a class="reference internal" href="particulas-entrega.html">12. Hazlo tuyo y entrega</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cohete-objeto.html">13. Cohete: objeto literal</a></li>
+<li class="toctree-l1"><a class="reference internal" href="explosion-destello.html">14. Explosión en destello: variable booleana</a></li>
+<li class="toctree-l1"><a class="reference internal" href="explosion-chispas.html">15. Explosión con chispas: push() y splice()</a></li>
+<li class="toctree-l1"><a class="reference internal" href="fuegos-artificiales.html">16. Fuegos artificiales: mousePressed() y funciones auxiliares</a></li>
+<li class="toctree-l1"><a class="reference internal" href="fuegos-entrega.html">17. Hazlo tuyo: fuegos artificiales</a></li>
 </ul>
 </div>
-<p><a class="reference download internal" download="" href="../_downloads/javascript-eg-practica-01.pdf"><code class="xref download docutils literal notranslate"><span class="pre">Práctica</span> <span class="pre">JavaScript</span> <span class="pre">p5.js</span> <span class="pre">-</span> <span class="pre">Lienzo</span> <span class="pre">interactivo.</span> <span class="pre">Formato</span> <span class="pre">PDF.</span></code></a></p>
+<p><a class="reference download internal" download="" href="../_downloads/javascript-eg-practica-01.pdf"><code class="xref download docutils literal notranslate"><span class="pre">Práctica</span> <span class="pre">1</span> <span class="pre">—</span> <span class="pre">Lienzo</span> <span class="pre">interactivo</span> <span class="pre">(PDF)</span></code></a></p>
+<p><a class="reference download internal" download="" href="../_downloads/javascript-eg-practica-02.pdf"><code class="xref download docutils literal notranslate"><span class="pre">Práctica</span> <span class="pre">2</span> <span class="pre">—</span> <span class="pre">Partículas</span> <span class="pre">conectadas</span> <span class="pre">(PDF)</span></code></a></p>
+<p><a class="reference download internal" download="" href="../_downloads/javascript-eg-practica-03.pdf"><code class="xref download docutils literal notranslate"><span class="pre">Práctica</span> <span class="pre">3</span> <span class="pre">—</span> <span class="pre">Fuegos</span> <span class="pre">artificiales</span> <span class="pre">(PDF)</span></code></a></p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Esta guía de p5.js ha sido creada por
-Esther Gordo.</p>
+<p>Este material ha sido creado por Esther Gordo.
+Licencia Creative Commons Attribution-ShareAlike 4.0 International.</p>
 </div>
 </section>
 
@@ -364,7 +383,7 @@ Esther Gordo.</p>
   
   
   
-  <p>Last updated on 2026-06-23.</p>
+  <p>Last updated on 2026-06-28.</p>
   
 
 </footer>

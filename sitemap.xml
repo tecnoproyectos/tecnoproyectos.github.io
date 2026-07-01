@@ -4,775 +4,883 @@
 
 <url>
   <loc>https://www.picuino.com/about.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/contacto.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/content.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/genindex.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/orphan.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/search.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/arduino-ft/bucle-for.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/arduino-ft/constantes.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/arduino-ft/entradas-analogicas.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/arduino-ft/entradas-digitales.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/arduino-ft/index.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/arduino-ft/pantalla-lcd.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/arduino-ft/potenciometro.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/arduino-ft/primeros-pasos.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/arduino-ft/protoboard.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/arduino-ft/salidas-pwm.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/arduino-ft/sensor-dht11.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/arduino-ft/sensor-ultrasonico.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/arduino-ft/serial-enviar.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/arduino-ft/serial-recibir.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/arduino-ft/servomotores.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/arduino-ft/variables-ambitos.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/arduino-ft/variables-leer.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/arduino-ft/variables-texto.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/arduino-ft/variables-tipos.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/arduino-ft/variables.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/colaborar-cp/editar-fuentes.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/colaborar-cp/github.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/colaborar-cp/herramientas.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/colaborar-cp/imagenes.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/colaborar-cp/index.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/colaborar-cp/restructuredtext.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/about.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/contacto.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/content.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/genindex.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/index.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/orphan.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/search.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/arduino-ft/bucle-for.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/arduino-ft/constantes.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/arduino-ft/entradas-analogicas.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/arduino-ft/entradas-digitales.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/arduino-ft/index.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/arduino-ft/pantalla-lcd.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/arduino-ft/potenciometro.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/arduino-ft/primeros-pasos.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/arduino-ft/protoboard.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/arduino-ft/salidas-pwm.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/arduino-ft/sensor-dht11.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/arduino-ft/sensor-ultrasonico.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/arduino-ft/serial-enviar.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/arduino-ft/serial-recibir.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/arduino-ft/servomotores.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/arduino-ft/variables-ambitos.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/arduino-ft/variables-leer.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/arduino-ft/variables-texto.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/arduino-ft/variables-tipos.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/arduino-ft/variables.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/colaborar-cp/editar-fuentes.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/colaborar-cp/github.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/colaborar-cp/herramientas.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/colaborar-cp/imagenes.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/colaborar-cp/index.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/colaborar-cp/restructuredtext.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/enlaces-cp/areatecnologia.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/enlaces-cp/index.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/enlaces-cp/otros.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/enlaces-cp/pelandintecno.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/enlaces-cp/procomun.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/freecad-ft/arco-medio-punto.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/freecad-ft/ensamble.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/freecad-ft/figuras-revolucion.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/freecad-ft/freecad-instalar.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/freecad-ft/herramienta-espesor.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/freecad-ft/herramienta-huecos.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/freecad-ft/index.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/freecad-ft/lapicero-personalizado.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/freecad-ft/llavero-articulado.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/freecad-ft/llavero-personalizado.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/freecad-ft/part-design.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/freecad-ft/plano-vivienda.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/freecad-ft/polilinea-barrido.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/freecad-ft/puente-autoportante.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/freecad-ft/repeticion-piezas.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/freecad-ft/repeticion-polar.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/freecad-ft/tangencias-simetrias.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/freecad-ft/variables.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/javascript-eg/cambio-color.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.picuino.com/en/javascript-eg/cohete-objeto.html</loc>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/javascript-eg/componer-formas.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.picuino.com/en/javascript-eg/conectar-particulas.html</loc>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/javascript-eg/disenio-papel.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/javascript-eg/entrega.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/javascript-eg/estructura-base.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.picuino.com/en/javascript-eg/explosion-chispas.html</loc>
+  <lastmod>2026-07-01</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.picuino.com/en/javascript-eg/explosion-destello.html</loc>
+  <lastmod>2026-07-01</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.picuino.com/en/javascript-eg/fuegos-artificiales.html</loc>
+  <lastmod>2026-07-01</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.picuino.com/en/javascript-eg/fuegos-entrega.html</loc>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/javascript-eg/funcion-map.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/javascript-eg/index.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.picuino.com/en/javascript-eg/particula-rebotando.html</loc>
+  <lastmod>2026-07-01</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.picuino.com/en/javascript-eg/particulas-entrega.html</loc>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/javascript-eg/primeras-formas.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/en/javascript-eg/raton-entrada.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.picuino.com/en/javascript-eg/varias-particulas.html</loc>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/enlaces-cp/areatecnologia.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/enlaces-cp/index.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/enlaces-cp/otros.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/enlaces-cp/pelandintecno.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/enlaces-cp/procomun.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/freecad-ft/arco-medio-punto.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/freecad-ft/ensamble.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/freecad-ft/figuras-revolucion.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/freecad-ft/freecad-instalar.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/freecad-ft/herramienta-espesor.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/freecad-ft/herramienta-huecos.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/freecad-ft/index.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/freecad-ft/lapicero-personalizado.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/freecad-ft/llavero-articulado.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/freecad-ft/llavero-personalizado.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/freecad-ft/part-design.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/freecad-ft/plano-vivienda.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/freecad-ft/polilinea-barrido.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/freecad-ft/puente-autoportante.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/freecad-ft/repeticion-piezas.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/freecad-ft/repeticion-polar.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/freecad-ft/tangencias-simetrias.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/freecad-ft/variables.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/javascript-eg/cambio-color.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.picuino.com/javascript-eg/cohete-objeto.html</loc>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/javascript-eg/componer-formas.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.picuino.com/javascript-eg/conectar-particulas.html</loc>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/javascript-eg/disenio-papel.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/javascript-eg/entrega.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/javascript-eg/estructura-base.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.picuino.com/javascript-eg/explosion-chispas.html</loc>
+  <lastmod>2026-07-01</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.picuino.com/javascript-eg/explosion-destello.html</loc>
+  <lastmod>2026-07-01</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.picuino.com/javascript-eg/fuegos-artificiales.html</loc>
+  <lastmod>2026-07-01</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.picuino.com/javascript-eg/fuegos-entrega.html</loc>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/javascript-eg/funcion-map.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/javascript-eg/index.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.picuino.com/javascript-eg/particula-rebotando.html</loc>
+  <lastmod>2026-07-01</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.picuino.com/javascript-eg/particulas-entrega.html</loc>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/javascript-eg/primeras-formas.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.picuino.com/javascript-eg/raton-entrada.html</loc>
-  <lastmod>2026-06-30</lastmod>
+  <lastmod>2026-07-01</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.picuino.com/javascript-eg/varias-particulas.html</loc>
+  <lastmod>2026-07-01</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>

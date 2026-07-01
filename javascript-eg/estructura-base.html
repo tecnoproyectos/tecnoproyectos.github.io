@@ -4,13 +4,13 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta property="article:published_time" content="2026-06-23T12:00:00+01:00" />
-<meta property="article:modified_time" content="2026-06-23T12:00:00+01:00" />
+<meta property="article:modified_time" content="2026-06-28T12:00:00+01:00" />
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "2. La estructura base",
+  "headline": "2. Esctructura: setup() y draw()",
   "author": {
     "@type": "Person",
     "name": "Esther Gordo"
@@ -27,14 +27,14 @@
   "mainEntityOfPage": "https://tecnoproyectos.github.io/javascript-eg/estructura-base.html",
   "license": "https://creativecommons.org/licenses/by-sa/4.0/",
   "datePublished": "2026-06-23T12:00:00+01:00",
-  "dateModified": "2026-06-23T12:00:00+01:00"
+  "dateModified": "2026-06-28T12:00:00+01:00"
 }
 </script>
-<link rel="author" title="Sobre este documento" href="../about.html"><link rel="index" title="Índice" href="../genindex.html"><link rel="search" title="Búsqueda" href="../search.html"><link rel="next" title="3. Primeras formas" href="primeras-formas.html"><link rel="prev" title="1. Diseño en papel" href="disenio-papel.html">
+<link rel="author" title="Sobre este documento" href="../about.html"><link rel="index" title="Índice" href="../genindex.html"><link rel="search" title="Búsqueda" href="../search.html"><link rel="next" title="3. Formas en 2D" href="primeras-formas.html"><link rel="prev" title="1. Diseño en papel" href="disenio-papel.html">
         <link rel="prefetch" href="../_static/favicon.png" as="image">
 
     <link rel="shortcut icon" href="../_static/favicon.ico"><!-- Generated with Sphinx 9.1.0 and Furo 2025.12.19 -->
-        <title>2. La estructura base - Tecno Proyectos</title>
+        <title>2. Esctructura: setup() y draw() - Tecno Proyectos</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d111a655" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=7bdb33bb" />
     <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=54055799" />
@@ -233,13 +233,22 @@
 <li class="toctree-l1"><a class="reference internal" href="../freecad-ft/index.html">Guía FreeCAD</a></li>
 <li class="toctree-l1 current has-children"><a class="reference internal" href="index.html">JavaScript con p5.js</a><input aria-label="Toggle navigation of JavaScript con p5.js" checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="disenio-papel.html">1. Diseño en papel</a></li>
-<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">2. La estructura base</a></li>
-<li class="toctree-l2"><a class="reference internal" href="primeras-formas.html">3. Primeras formas</a></li>
-<li class="toctree-l2"><a class="reference internal" href="raton-entrada.html">4. El ratón como entrada</a></li>
+<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">2. Esctructura: setup() y draw()</a></li>
+<li class="toctree-l2"><a class="reference internal" href="primeras-formas.html">3. Formas en 2D</a></li>
+<li class="toctree-l2"><a class="reference internal" href="raton-entrada.html">4. Interacción: mouseX y mouseY</a></li>
 <li class="toctree-l2"><a class="reference internal" href="funcion-map.html">5. La función map()</a></li>
-<li class="toctree-l2"><a class="reference internal" href="cambio-color.html">6. Color que cambia con el ratón</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cambio-color.html">6. Modos de color: RGB y HSB</a></li>
 <li class="toctree-l2"><a class="reference internal" href="componer-formas.html">7. Componer más de una forma</a></li>
 <li class="toctree-l2"><a class="reference internal" href="entrega.html">8. Entrega y reto extra</a></li>
+<li class="toctree-l2"><a class="reference internal" href="particula-rebotando.html">9. Partícula rebotando: variables, random() e if</a></li>
+<li class="toctree-l2"><a class="reference internal" href="varias-particulas.html">10. Varias partículas rebotando: arrays y for</a></li>
+<li class="toctree-l2"><a class="reference internal" href="conectar-particulas.html">11. Conectamos partículas: dist() y for anidado</a></li>
+<li class="toctree-l2"><a class="reference internal" href="particulas-entrega.html">12. Hazlo tuyo y entrega</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cohete-objeto.html">13. Cohete: objeto literal</a></li>
+<li class="toctree-l2"><a class="reference internal" href="explosion-destello.html">14. Explosión en destello: variable booleana</a></li>
+<li class="toctree-l2"><a class="reference internal" href="explosion-chispas.html">15. Explosión con chispas: push() y splice()</a></li>
+<li class="toctree-l2"><a class="reference internal" href="fuegos-artificiales.html">16. Fuegos artificiales: mousePressed() y funciones auxiliares</a></li>
+<li class="toctree-l2"><a class="reference internal" href="fuegos-entrega.html">17. Hazlo tuyo: fuegos artificiales</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../colaborar-cp/index.html">Cómo colaborar</a></li>
@@ -283,8 +292,11 @@
           </label>
         </div>
         <article role="main" id="furo-main-content">
-          <section id="la-estructura-base">
-<h1><span class="section-number">2. </span>La estructura base<a class="headerlink" href="#la-estructura-base" title="Link to this heading">¶</a></h1>
+          <section id="esctructura-setup-y-draw">
+<h1><span class="section-number">2. </span>Esctructura: setup() y draw()<a class="headerlink" href="#esctructura-setup-y-draw" title="Link to this heading">¶</a></h1>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Paso</span> <span class="mi">2</span><span class="o">/</span><span class="mi">8</span> <span class="n">de</span> <span class="n">práctica</span> <span class="mi">1</span> <span class="s2">&quot;Lienzo interactivo&quot;</span>
+</pre></div>
+</div>
 <p>En esta práctica veremos cómo usar las funciones setup() y draw().</p>
 <section id="el-bucle-de-dibujo">
 <h2>El bucle de dibujo<a class="headerlink" href="#el-bucle-de-dibujo" title="Link to this heading">¶</a></h2>
@@ -329,7 +341,7 @@ formas que dibujes se acumularán unas sobre otras y verás un rastro.</p>
           <div class="context">
             <span>Siguiente</span>
           </div>
-          <div class="title"><span class="section-number">3. </span>Primeras formas</div>
+          <div class="title"><span class="section-number">3. </span>Formas en 2D</div>
         </div>
         <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
       </a>
@@ -371,7 +383,7 @@ formas que dibujes se acumularán unas sobre otras y verás un rastro.</p>
   
   
   
-  <p>Actualizado por última vez en 2026-06-23.</p>
+  <p>Actualizado por última vez en 2026-06-28.</p>
   
 
 </footer>
@@ -390,7 +402,7 @@ formas que dibujes se acumularán unas sobre otras y verás un rastro.</p>
         <div class="toc-tree-container">
           <div class="toc-tree">
             <ul>
-<li><a class="reference internal" href="#">2. La estructura base</a><ul>
+<li><a class="reference internal" href="#">2. Esctructura: setup() y draw()</a><ul>
 <li><a class="reference internal" href="#el-bucle-de-dibujo">El bucle de dibujo</a></li>
 <li><a class="reference internal" href="#tu-primer-lienzo">Tu primer lienzo</a></li>
 </ul>

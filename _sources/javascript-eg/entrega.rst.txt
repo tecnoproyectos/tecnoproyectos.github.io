@@ -1,11 +1,15 @@
 ﻿:date: 2026-06-23
-:modified: 2026-06-23
+:modified: 2026-06-28
 :author: Esther Gordo
 :license: Creative Commons Attribution-ShareAlike 4.0 International
 :license_url: https://creativecommons.org/licenses/by-sa/4.0/
 
 Entrega y reto extra
 ====================
+.. parsed-literal::
+  
+  Paso 8/8 de práctica 1 "Lienzo interactivo"
+  
 Con todo lo que has aprendido, es el momento de tomar tus propias
 decisiones. Aquí tienes la estructura mínima que debe tener tu versión:
 
