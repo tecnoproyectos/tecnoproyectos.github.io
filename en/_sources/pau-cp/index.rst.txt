@@ -12,7 +12,7 @@ de Bachillerato relacionadas con Tecnología.
 
 .. list-table:: Exámenes PAU
    :header-rows: 1
-   :widths: auto
+   :widths: 20 10 70
    :align: center
 
    * - Comunidad
