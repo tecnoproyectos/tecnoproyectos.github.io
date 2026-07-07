@@ -12,7 +12,7 @@ de Bachillerato relacionadas con Tecnología.
 
 Tecnología e Ingeniería II
 --------------------------
-.. list-table:: 113 exámenes y 3 criterios PAU
+.. list-table:: 114 exámenes y 4 criterios PAU
    :header-rows: 1
    :align: left
 
@@ -125,11 +125,17 @@ Tecnología e Ingeniería II
        <http://web.unican.es/admision/acceso-a-estudios-de-grado/evaluacion-de-bachillerato-para-el-acceso-a-la-universidad>`__
      - `Ordinaria
        </static/pau/pau-cantabria-tein-2526-ordinaria.pdf>`__
-     - `Ordinaria
+     - `Modelo
+       </static/pau/pau-cantabria-tein-2425-modelo.pdf>`__
+
+       `Ordinaria
        </static/pau/pau-cantabria-tein-2425-ordinaria.pdf>`__
 
        `Extraordinaria
        </static/pau/pau-cantabria-tein-2425-extra.pdf>`__
+
+       `Criterios
+       </static/pau/pau-cantabria-tein-2425-criterios.pdf>`__
      - `Ordinaria
        </static/pau/pau-cantabria-tein-2324-ordinaria.pdf>`__
 
