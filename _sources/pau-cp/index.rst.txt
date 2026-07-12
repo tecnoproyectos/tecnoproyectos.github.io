@@ -12,7 +12,7 @@ de Bachillerato relacionadas con Tecnología.
 
 Tecnología e Ingeniería II
 --------------------------
-.. list-table:: 116 exámenes y 4 criterios PAU
+.. list-table:: 118 exámenes y 4 criterios PAU
    :header-rows: 1
    :align: left
 
@@ -104,6 +104,12 @@ Tecnología e Ingeniería II
 
        `Extraordinaria
        </static/pau/pau-asturias-tein-2324-extra.pdf>`__
+   * - `Baleares
+       <https://estudis.uib.es/es/estudis-de-grau/Com-hi-pots-accedir/acces/batxiller/ModelsExamenPBAU/>`__
+     - `Extraordinaria
+       </static/pau/pau-baleares-tein-2526-extra.pdf>`__
+     -
+     -
    * - `Canarias
        <https://www.gobiernodecanarias.org/educacion/web/bachillerato/pau/pau/index.html>`__
      - `Ordinaria
@@ -125,6 +131,9 @@ Tecnología e Ingeniería II
        <http://web.unican.es/admision/acceso-a-estudios-de-grado/evaluacion-de-bachillerato-para-el-acceso-a-la-universidad>`__
      - `Ordinaria
        </static/pau/pau-cantabria-tein-2526-ordinaria.pdf>`__
+
+       `Extraordinaria
+       </static/pau/pau-cantabria-tein-2526-extra.pdf>`__
      - `Modelo
        </static/pau/pau-cantabria-tein-2425-modelo.pdf>`__
 
