@@ -228,8 +228,8 @@ Tecnología e Ingeniería II
 
        `Extraordinaria
        </static/pau/pau-extremadura-tein-2324-extra.pdf>`__
-     - `Extraordinaria 
-       </static/pau/pau-extremadura-tein-2026-extra-.pdf>`__
+     - `Extraordinaria
+       </static/pau/pau-extremadura-tein-2026-extra.pdf>`__
    * - `Galicia
        <https://www.ciug.gal/gal/pau>`__
      - `Modelo
