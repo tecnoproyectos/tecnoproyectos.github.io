@@ -325,7 +325,7 @@ intensidad analógicos mediante pulsos o “parpadeos” de la señal:</p>
 <h2>Tarea PWM brillo<a class="headerlink" href="#tarea-pwm-brillo" title="Link to this heading">¶</a></h2>
 <p>Monta el circuito de la figura:</p>
 <figure class="align-center">
-<img alt="../_images/arduino-ft-03.png" src="../_images/arduino-ft-03.png" />
+<img alt="../_images/arduino-ft-05.png" src="../_images/arduino-ft-05.png" />
 </figure>
 <p>Realiza el mismo programa que el de las tareas anteriores,
 pero en vez de repetir las líneas con las mismas
@@ -336,6 +336,40 @@ variables y el bucle <code class="docutils literal notranslate"><span class="pre
 <p>Sería el código equivalente a:</p>
 <figure class="align-center">
 <a class="reference internal image-reference" href="../_images/arduino-ft-10.png"><img alt="../_images/arduino-ft-10.png" src="../_images/arduino-ft-10.png" style="width: 420px;" />
+</a>
+</figure>
+</section>
+<section id="ajuste-de-brillo-con-bucle-for">
+<h2>Ajuste de brillo con bucle for<a class="headerlink" href="#ajuste-de-brillo-con-bucle-for" title="Link to this heading">¶</a></h2>
+<p><a class="reference internal" href="../_images/arduino-ft-video.png"><img alt="Icono de vídeo de YouTube" src="../_images/arduino-ft-video.png" style="height: 32px;" /></a> VÍDEO: <a class="reference external" href="https://www.youtube.com/watch?v=V_GoKMmdV4I" rel="noopener noreferrer" target="_blank">Ajuste de brillo usando la variable “i” del bucle for()</a></p>
+</section>
+<section id="tarea-pwm-for">
+<h2>Tarea PWM for()<a class="headerlink" href="#tarea-pwm-for" title="Link to this heading">¶</a></h2>
+<p>Usando el bucle <code class="docutils literal notranslate"><span class="pre">for()</span></code>, programa el LED para que se encienda
+progresivamente de 0 a 255 con un retardo de 20 ms entre cambios de
+intensidad.
+Fíjate en la imagen, te servirá de guía:</p>
+<figure class="align-center" id="id1">
+<a class="reference internal image-reference" href="../_images/arduino-ft-24.png"><img alt="../_images/arduino-ft-24.png" src="../_images/arduino-ft-24.png" style="width: 310px;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Figura 5.1</span><span class="caption-text">La variable i aumenta de 1 en 1 (i++).</span><a class="headerlink" href="#id1" title="Link to this image">¶</a></p>
+</figcaption>
+</figure>
+<p>Sería el equivalente en código a los siguientes bloques:</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/arduino-ft-33.png"><img alt="../_images/arduino-ft-33.png" src="../_images/arduino-ft-33.png" style="width: 420px;" />
+</a>
+</figure>
+</section>
+<section id="tarea-brillo-sube-baja">
+<h2>Tarea brillo sube baja<a class="headerlink" href="#tarea-brillo-sube-baja" title="Link to this heading">¶</a></h2>
+<p>Usando el bucle <code class="docutils literal notranslate"><span class="pre">for()</span></code>, programa el LED para que se encienda
+progresivamente de 0 a 255 de 5 en 5 y luego de 255 a 0 de 5 en 5,
+con un retardo de 15 ms entre cambios de intensidad.</p>
+<p>Fíjate en la imagen, te servirá de guía:</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/arduino-ft-35.png"><img alt="../_images/arduino-ft-35.png" src="../_images/arduino-ft-35.png" style="width: 660px;" />
 </a>
 </figure>
 </section>
@@ -415,6 +449,9 @@ variables y el bucle <code class="docutils literal notranslate"><span class="pre
             <ul>
 <li><a class="reference internal" href="#">5. Salidas PWM</a><ul>
 <li><a class="reference internal" href="#tarea-pwm-brillo">Tarea PWM brillo</a></li>
+<li><a class="reference internal" href="#ajuste-de-brillo-con-bucle-for">Ajuste de brillo con bucle for</a></li>
+<li><a class="reference internal" href="#tarea-pwm-for">Tarea PWM for()</a></li>
+<li><a class="reference internal" href="#tarea-brillo-sube-baja">Tarea brillo sube baja</a></li>
 </ul>
 </li>
 </ul>
