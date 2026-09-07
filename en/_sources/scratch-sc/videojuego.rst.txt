@@ -1,0 +1,41 @@
+﻿:date: 2026-09-07
+:modified: 2026-09-07
+:author: Santiago Camblor
+:license: Creative Commons Attribution-ShareAlike 4.0 International
+:license_url: https://creativecommons.org/licenses/by-sa/4.0/
+
+Videojuego
+==========
+Crea un videojuego original con el 
+`editor de Scratch <https://scratch.mit.edu/projects/editor/>`__.
+
+Restricciones:
+
+#. El videojuego deberá tener un mínimo de dos personajes y tres
+   escenarios: al menos uno para la presentación, otro para el juego y uno
+   final con la puntuación. 
+   
+   Durante el juego puede haber más de un escenario y puede haber más de 2
+   personajes. Los objetos también se consideran personajes.
+
+   Cada personaje debe tener necesariamente un programa asociado.
+   
+#. En la presentación se pregunta al jugador si quiere que se explique el
+   juego. En el caso de que diga que sí, se le explica. Si dice que no, se
+   empieza a jugar directamente.
+   
+#. Al menos uno de los personajes tiene que tener varios disfraces.
+
+#. Debe haber un contador de puntos y un límite de tiempo de 2 minutos.
+   El límite de tiempo se puede ampliar si el jugador consigue tiempo
+   extra pero nunca sobrepasará los 4 minutos.
+   Cuando termine el juego se debe mostrar un marcador con la puntuación
+   obtenida.
+#. El jugador debe interaccionar con el programa moviendo personajes,
+   respondiendo preguntas, etc.
+#. Los nombres de las variables deben ser significativos.
+
+Cuanto más divertido sea el juego, más puntos se pueden conseguir.
+
+Guarda el programa en tu carpeta de Scratch con el nombre
+**videojuego_tu_nombre** y envíalo para calificación.

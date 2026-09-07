@@ -25,6 +25,13 @@ Ese conjunto de instrucciones es lo que llamamos **programa**.
    ejercicios-dibujo
    ejercicios-bucles
    ejercicios-animacion
+   ejercicios-baloncesto
+   ejercicios-bichos
+   ejercicios-buzo
+   ejercicios-coches
+   ejercicios-pasarelas
+   videojuego
+
    tutoriales
 
 

@@ -1,0 +1,51 @@
+﻿:date: 2026-09-07
+:modified: 2026-09-07
+:author: Santiago Camblor
+:license: Creative Commons Attribution-ShareAlike 4.0 International
+:license_url: https://creativecommons.org/licenses/by-sa/4.0/
+
+Ejercicios de pasarelas
+=======================
+En el programa de ejemplo :download:`scratch-k1.sb` tenemos un gato que es
+capaz de caminar por unas pasarelas. El gato tiene unos puntos verdes en
+los pies y cuando el color verde toca el color rojo de las pasarelas,
+camina. Si no tiene pasarela debajo, se cae. Si pulsamos la tecla espacio
+el gato da un salto que le permite pasar de una pasarela a otra.
+
+Abre el `editor de Scratch <https://scratch.mit.edu/projects/editor/>`__.
+
+#. Modifica el juego para que con tres teclas diferentes  poder dar saltos
+   de diferente altura.
+
+   Guarda el programa en tu carpeta de Scratch con el nombre
+   **ejercicio_k1**.
+
+#. Modifica el programa para que si la pasarela toca al gato por la parte
+   delantera, se gire hacia la izquierda y caiga.
+
+   Guarda el programa en tu carpeta de Scratch con el nombre
+   **ejercicio_k2**.
+
+#. Añade un contador de manera que cada vez que cambie de pasarela sume un
+   punto.
+
+   Guarda el programa en tu carpeta de Scratch con el nombre
+   **ejercicio_k3**.
+
+#. Pon un límite de tiempo de 2 minutos.
+
+   Guarda el programa en tu carpeta de Scratch con el nombre
+   **ejercicio_k4**.
+
+#. El juego termina si el gato cae o si le golpea una pasarela.
+
+   Guarda el programa en tu carpeta de Scratch con el nombre
+   **ejercicio_k5**.
+
+#. Prueba a poner niveles de dificultad (pasarelas más pequeñas, o se
+   mueven más rápido, etc.) de manera que si se supera una cantidad de
+   puntos en un tiempo, se añade tiempo de vida y se pasa a un nivel de
+   más dificultad.
+
+   Guarda el programa en tu carpeta de Scratch con el nombre
+   **ejercicio_k6_tu_nombre** y envíalo para calificación.

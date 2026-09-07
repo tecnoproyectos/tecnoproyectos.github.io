@@ -1,0 +1,45 @@
+﻿:date: 2026-09-07
+:modified: 2026-09-07
+:author: Santiago Camblor
+:license: Creative Commons Attribution-ShareAlike 4.0 International
+:license_url: https://creativecommons.org/licenses/by-sa/4.0/
+
+Ejercicios de coches
+====================
+El programa :download:`scratch-j1.sb` tiene un circuito y un coche.
+Si pulsas la tecla arriba, el coche comienza a moverse. Es como si fuera
+el acelerador. Las teclas izquierda y derecha funcionan como el volante.
+
+Abre el `editor de Scratch <https://scratch.mit.edu/projects/editor/>`__.
+
+#. Modifica el programa para que la tecla espacio funcione como un freno
+   (mientras la pulsamos, la velocidad disminuye, pero como mucho hasta
+   pararse. Con el freno el coche nunca va marcha atrás.
+   
+   Guarda el programa en tu carpeta de Scratch con el nombre
+   **ejercicio_j1**.
+   
+#. Modifica el programa para que  cuente las vueltas que se dan en el
+   circuito.
+
+   Guarda el programa en tu carpeta de Scratch con el nombre
+   **ejercicio_j2**.
+
+#. Modifica el programa para que si se consigue dar dos vueltas en menos
+   de un minuto, se cambia a un circuito más difícil. Puede ser
+   :download:`este circuito <_images/scratch-sc-circuito.png>` u otro que
+   dibujes tú.
+   
+   Guarda el programa en tu carpeta de Scratch con el nombre
+   **ejercicio_j3**.
+   
+#. Añade un límite de 3 minutos.
+
+   Guarda el programa en tu carpeta de Scratch con el nombre
+   **ejercicio_j4**.
+
+#. Cuando termine el programa, nos tiene que decir cuántos vueltas se han
+   recorrido.
+   
+   Guarda el programa en tu carpeta de Scratch con el nombre
+   **ejercicio_j5_tu_nombre** y envíalo para calificación.

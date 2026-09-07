@@ -19,7 +19,7 @@ Tutoriales de Scratch
 #. `Bucle infinito <https://apuntesmareaverde.org.es/grupos/tec/lomce/1eso/scratch1/tut_scratch/por_siempre.html>`__.
 #. `Variables <https://apuntesmareaverde.org.es/grupos/tec/lomce/1eso/scratch1/tut_scratch/variables.html>`__.
 #. `Bifurcaciones <https://apuntesmareaverde.org.es/grupos/tec/lomce/1eso/scratch1/tut_scratch/bifurcaciones.html>`__.
-#. `Números aleatorios <https://apuntesmareaverde.org.es/grupos/tec/lomce/1eso/scratch1/tut_scratch/aleatorio.html>`__."
+#. `Números aleatorios <https://apuntesmareaverde.org.es/grupos/tec/lomce/1eso/scratch1/tut_scratch/aleatorio.html>`__.
 #. `Cambio de escenario <https://apuntesmareaverde.org.es/grupos/tec/lomce/1eso/scratch1/tut_scratch/cambio_escenario.html>`__.
 #. `Introducir datos por el teclado <https://apuntesmareaverde.org.es/grupos/tec/lomce/1eso/scratch1/tut_scratch/leer_datos.html>`__.
 #. `Cálculos aritméticos <https://apuntesmareaverde.org.es/grupos/tec/lomce/1eso/scratch1/tut_scratch/calculos.html>`__.

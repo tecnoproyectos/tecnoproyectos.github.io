@@ -1,0 +1,42 @@
+﻿:date: 2026-09-07
+:modified: 2026-09-07
+:author: Santiago Camblor
+:license: Creative Commons Attribution-ShareAlike 4.0 International
+:license_url: https://creativecommons.org/licenses/by-sa/4.0/
+
+Ejercicios de bichos
+====================
+En el programa de ejemplo :download:`scratch-g1.sb` tienes un murciélago
+y una mariposa. La mariposa se mueve con un poco de aleatoriedad.
+
+Abre el `editor de Scratch <https://scratch.mit.edu/projects/editor/>`__.
+
+#. Consigue que el programa tenga un fondo adecuado, el murciélago aletee,
+   que se pueda mover con las teclas de dirección y que cada vez que toque
+   a la mariposa, esta desaparezca y cuente un punto.
+
+   Guarda el programa en tu carpeta de Scratch con el nombre
+   **ejercicio_g1**.
+
+#. Consigue ahora que el juego tenga un límite de 30 segundos y que al
+   terminar el murciélago diga: "Me he comido (el número) bichos".
+
+   Guarda el programa en tu carpeta de Scratch con el nombre
+   **ejercicio_g2**.
+
+#. Consigue ahora que haya más insectos que se pueda comer el murciélago.
+   Los distintos bichos se mueven a distinta velocidad y no aparecen todos
+   a la vez.
+
+   Guarda el programa en tu carpeta de Scratch con el nombre
+   **ejercicio_g3**.
+
+#. En el programa :download:`scratch-g2.sb` se ha añadido un pájaro que
+   persigue al murciélago.
+   Estudia su código para conseguir que en el programa anterior, que ya
+   tenía varios bichos pululando, haya un depredador que persiga al
+   murciélago (si quieres el mismo pájaro que hemos puesto en el ejemplo
+   scratch-g2) y que si le toca, termine el juego y el depredador diga "Qué rico estaba el murciélago".
+
+   Guarda el programa en tu carpeta de Scratch con el nombre
+   **ejercicio_g4_tu_nombre** y envíalo para calificación.

@@ -1,0 +1,50 @@
+﻿:date: 2026-09-07
+:modified: 2026-09-07
+:author: Santiago Camblor
+:license: Creative Commons Attribution-ShareAlike 4.0 International
+:license_url: https://creativecommons.org/licenses/by-sa/4.0/
+
+Ejercicios de buzo
+==================
+En el programa de ejemplo :download:`scratch-h1.sb` tenemos un buzo que se
+puede mover con las flechas arriba y abajo. Si pulsamos la tecla espacio,
+el buzo lanza un arpón.
+
+Abre el `editor de Scratch <https://scratch.mit.edu/projects/editor/>`__.
+
+#. Añade un fondo adecuado.
+
+   Guarda el programa en tu carpeta de Scratch con el nombre
+   **ejercicio_h1**.
+
+#. Consigue que al pulsar la bandera el pulpo siempre comience en una
+   posición aleatoria del eje "x" entre -230 y -200 y en una posición
+   aleatoria del eje "y" entre -150 y 150.
+
+   Guarda el programa en tu carpeta de Scratch con el nombre
+   **ejercicio_h2**.
+
+#. Modifica el programa para que si la flecha toca el color del pulpo
+   este vuelva al origen, y se sume un punto al contador.
+
+   Guarda el programa en tu carpeta de Scratch con el nombre
+   **ejercicio_h3**.
+
+#. Si el pulpo toca al buzo, el juego debe terminar.
+
+   Guarda el programa en tu carpeta de Scratch con el nombre
+   **ejercicio_h4**.
+
+#. Añade un límite de tiempo de 30 segundos al juego.
+
+   Guarda el programa en tu carpeta de Scratch con el nombre
+   **ejercicio_h5**.
+
+#. Duplica al pulpo varias veces para tener 8 copias. Mira el tutorial
+   sobre duplicar para saber cómo hacerlo. El programa debe funcionar para
+   todos los pulpos, es decir, si la flecha toca cualquier pulpo, se
+   cuenta un punto y si cualquier pulpo toca al buzo, el juego termina.
+   Es más fácil usar el sensor de color que el de objeto.
+
+   Guarda el programa en tu carpeta de Scratch con el nombre
+   **ejercicio_h6_tu_nombre** y envíalo para calificación.

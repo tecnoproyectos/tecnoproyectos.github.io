@@ -1,0 +1,48 @@
+﻿:date: 2026-09-07
+:modified: 2026-09-07
+:author: Santiago Camblor
+:license: Creative Commons Attribution-ShareAlike 4.0 International
+:license_url: https://creativecommons.org/licenses/by-sa/4.0/
+
+Ejercicios de baloncesto
+========================
+El programa :download:`scratch-f1.sb` tiene una pelota que se mueve y una
+cesta.
+
+Abre el `editor de Scratch <https://scratch.mit.edu/projects/editor/>`__.
+
+#. Modifica el programa para que puedas mover la cesta hacia la izquierda
+   o la derecha con el ratón (fijar x a coordenada x del ratón).
+
+   Guarda el programa en tu carpeta de Scratch con el nombre
+   **ejercicio_f1**.
+
+#. Cada vez que la pelota enceste en la canasta, debe contar un punto.
+   Una forma de hacer esto es haciendo que si la pelota toca a la cesta,
+   se le sume uno a la variable puntos (cambiar por 1).
+
+   Guarda el programa en tu carpeta de Scratch con el nombre
+   **ejercicio_f2**.
+
+#. Modifica el programa anterior para que termine después de 30 segundos.
+
+   Guarda el programa en tu carpeta de Scratch con el nombre
+   **ejercicio_f3**.
+
+#. El gato debe aparecer al final y decir la puntuación que ha obtenido el
+   jugador.
+
+   Guarda el programa en tu carpeta de Scratch con el nombre
+   **ejercicio_f4**.
+
+#. Modifica el programa para que al terminar, el gato diga la puntuación
+   en un teatro y para que el fondo sea distinto durante el juego. 
+
+   Guarda el programa en tu carpeta de Scratch con el nombre
+   **ejercicio_f5**.
+
+#. Modifica el programa para que cuantos más puntos consiga el jugador
+   más rápido caiga la pelota.
+   
+   Guarda el programa en tu carpeta de Scratch con el nombre
+   **ejercicio_f6_tu_nombre** y envíalo para calificación.
