@@ -12,7 +12,7 @@ de Bachillerato relacionadas con Tecnología.
 
 Tecnología e Ingeniería II
 --------------------------
-.. list-table:: 119 exámenes y 4 criterios PAU
+.. list-table:: 120 exámenes y 4 criterios PAU
    :header-rows: 1
    :align: left
 
@@ -356,6 +356,9 @@ Tecnología e Ingeniería II
 
        `Ordinaria
        </static/pau/pau-valencia-tein-2526-ordinaria.pdf>`__
+
+       `Extraordinaria
+       </static/pau/pau-valencia-tein-2526-extra.pdf>`__
 
        `Criterios
        </static/pau/pau-valencia-tein-2526-criterios.pdf>`__
